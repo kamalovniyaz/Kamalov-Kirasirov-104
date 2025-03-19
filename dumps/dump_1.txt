@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta charset="windows-1251">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Книжный магазин Чакона: купить книги онлайн с доставкой по Самаре и всей России</title>
+	<meta name="description" content="Книжный магазин Чакона занимается продажей книг более 25 лет. Закажите книги онлайн в Самаре, Сызрани, Тольятти и Новокуйбышевске или с доставкой по России. Отзывы и рецензии читателей на сайте." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<meta name="verify-v1" content="GHyl+SoxwNckTpfvRZtQKZ3qdF0SBXVQLcpuR0eP4Tk=" />
+	<meta name="yandex-verification" content="872c43d3c57e98b6" />
+
+	<meta property="og:title" content="Книжный магазин Чакона: купить книги онлайн с доставкой по Самаре и всей России" />
+    <meta property="og:description" content="Книжный магазин Чакона занимается продажей книг более 25 лет. Закажите книги онлайн в Самаре, Сызрани, Тольятти и Новокуйбышевске или с доставкой по России. Отзывы и рецензии читателей на сайте." />
+    <meta property="og:image" content="https://chaconne.ru/i/logo2.svg" />
+    <meta property="og:url" content="https://chaconne.ru/" />
+    <meta property="og:site_name" content="Интернет магазин Чакона" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	
+
+	<link rel="shortcut icon" href="/favicon.ico" />
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json?v=3">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+    <link href="/bs3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/css/fonts/fonts.css" rel="stylesheet" />
+    <link href="/css/site_components.css?115" rel="stylesheet" />
+	
+	<script src="https://yastatic.net/jquery/1.12.3/jquery.min.js"></script>
+	<script src="/bs3/js/bootstrap.min.js"></script>
+	<script src="/js/ext/jquery.autocomplete.min.js"></script>
+	<script src="/js/checkForm.js?9"></script>
+	<script src="/js/all.js?16"></script>
+
+	
+<script charset="windows-1251">
+dataLayer = [];
+
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PG9X783');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG9X783"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    <div class="container page_container">
+		<header id="mobile_header" class="visible-xs">
+	
+	
+	
+	<div id="menu_xs" class="row">
+		<div class="col-xs-2">
+			<a href="/">
+				<img src="/i/favicon.svg" width="20" height="20" />
+				<br>
+				<span>Главная</span>
+			</a>
+		</div>
+		<div class="col-xs-2">
+			<a href="javascript:" id="catalog_menu_mob_btn">
+				<i class="fa fa-bars fa-lg"></i><br>
+				<span>Каталог</span>
+			</a>
+		</div>
+				<div class="col-xs-2">
+			<a href="/sale/">
+				<i class="fa fa-tag fa-flip-horizontal"></i>
+				<br>
+				<span>Акции</span>
+			</a>
+		</div>
+		<div class="col-xs-2">
+			<a href="/info/opt.php">
+				<i class="fa fa-university fa-lg"></i>
+				<br>
+				<span>Школам</span>
+			</a>
+		</div>
+				<div class="col-xs-2">
+			<a href="/enter.php">
+				<i class="fa fa fa-vcard-o fa-lg"></i><br>
+				<span>Личное</span>
+			</a>
+		</div>
+		<div class="col-xs-2">
+			<a href="/cart.php">
+				<i class="fa fa-shopping-cart fa-lg"></i>
+				<br>
+				<span>Корзина</span>
+			</a>
+						<div class="badge cart-badge hide"></div>
+					</div>
+	</div>
+
+	<div id="sform_xs"></div>
+
+	<div id="catalog_menu_xs"></div>
+
+	
+	<div id="lk_xs">
+		
+<div class="catalog_menu">
+	<ul class="menu">
+				<li>
+			<a class="end "
+			   href="/user/index.php">Мои заказы</a>
+		</li>
+				<li>
+			<a class="end "
+			   href="/user/reserve.php">Отложенные в филиале</a>
+		</li>
+				<li>
+			<a class="end "
+			   href="/user/defer.php">Закладки</a>
+		</li>
+				<li>
+			<a class="end "
+			   href="/user/notice.php">Уведомления</a>
+		</li>
+				<li>
+			<a class="end "
+			   href="/user/card.php">Карта клиента</a>
+		</li>
+				<li>
+			<a class="end "
+			   href="/user/preferences.php">Настройки</a>
+		</li>
+				<li>
+			<a href="/exit.php" class="end">Выход</a>
+		</li>
+	</ul>
+</div>	</div>
+</header>
+
+<script>
+$('#menu_xs a').click(function() {
+	$('#menu_xs a.active').not(this).click();
+	$(this).toggleClass('active');
+}).each(function() {
+	if ($(this).attr('href') === location.pathname) {
+		$(this).addClass('active');
+		return false;
+	}
+});
+</script><header class="hidden-xs">
+	<section class="main">
+		<div class="row">
+
+			<div class="col-sm-3">
+				<a href="/" class="logo">
+					<img src="/i/logo2.svg" />
+				</a>
+			</div>
+
+			<div class="col-sm-6 pad0">
+				
+
+<div class="phone" style="padding-top: 15px;">
+	<a class="unstyled" href="tel:+7 (846) 331-22-33">
+		<img src="/i/phone.svg" width="15" height="15" />
+		+7 (846) 331-22-33	</a>
+	<p>с 10:00 до 20:00</p>
+</div>
+
+<div class="phone" style="padding-top: 15px;">
+	<a href="tel:+7 (8482) 55-55-88">
+		<img src="/i/phone.svg" width="15" height="15" />
+		+7 (8482) 55-55-88
+	</a>
+	<p>с 10:00 до 20:00</p>
+</div>
+
+			</div>
+
+			
+			<div class="col-sm-3">
+				<div class="cart" id="cart" style="padding-top: 15px;">
+	<a href="/cart.php" class="modal-toggle clearfix">
+		<img src="/i/cart_icon.svg" width="32" height="32" />
+		<span class="text">
+						В корзине пока пусто
+					</span>
+	</a>
+</div>			</div>
+
+			<div class="col-sm-12 header-nav-container">
+				<nav class="header-nav">
+					<a href="/info/opt.php">
+						<i class="fa fa-university" style="font-size:1.2em;vertical-align:-8%;"></i>&nbsp;Родителям и школам
+					</a>
+					<a href="/info/delivery/">
+						<i class="fa fa-truck fa-flip-horizontal fa-lg"></i>&nbsp;Доставка
+					</a>
+					<a href="/info/shops.php">
+						<i class="fa fa-shopping-bag" style="font-size:1.15em"></i>&nbsp;Наши магазины
+					</a>
+					<a href="/info/discount.php">
+						<i class="fa fa-percent" style="font-size:1.2em;vertical-align:-7%;"></i>&nbsp;Скидки
+					</a>
+					<a href="/sale/">
+						<i class="fa fa-tag fa-flip-horizontal" style="font-size:1.2em;vertical-align:-7%;"></i>&nbsp;Акции
+					</a>
+					<a href="/enter.php" rel="nofollow">
+						<i class="fa fa-vcard-o" style="font-size:1.2em;vertical-align:-8%;"></i>&nbsp;Мой кабинет
+					</a>
+				</nav>
+			</div>
+		</div>
+	</section>
+</header>
+		<div id="sform_lg">
+			<form class="search" id="sform" action="/search/" onsubmit="return inCheck('#sform')">
+	<input id="search" name="q" type="text" class="form-control" placeholder="Введите для поиска слова, ISBN или код товара" maxlength="100" value="" />
+	<button class="btn-clear hide " type="button" id="srch_clr"><i class="fa fa-times"></i></button>
+	<button class="btn" type="submit"><i class="fa fa-search"></i></button>
+
+	<input type="checkbox" name="kat" id="srch_cat" value="0" class="dis" />
+	<div class="xs-search-cat-label cgr dis">Искать в:</div>
+	<div class="custom_select dropdown">
+		<button class="form-control dropdown-toggle" data-toggle="dropdown" type="button">
+			<span class="text">Во всех разделах</span>
+		</button>
+		<ul id="srch_cat_list" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+<li><a tabindex="-1" href="javascript:;" class="srch-cat-0">Во всех разделах</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-573">Книги</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-548">Канцтовары</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4654">Товары для творчества</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4494">Развивающие игры и игрушки</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-5785">Настольные игры</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4557">Пазлы</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4444">Товары для коллекционеров</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-347">Настенные карты</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-592">Календари</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4551">Товары для праздников</a></li>		</ul>
+	</div>
+
+</form>		</div>
+
+
+        <div class="page_content">
+			<div class="row">
+	<div class="col-sm-4 col-lg-3 grid">
+
+		<div id="catalog_menu_lg"></div>
+
+		
+		<div class="news last_news hidden-xs">
+	<h4>Новости</h4>
+	<article>
+				<div class="text">
+			<a href="/news/1978/" class="title">Внимание, переезд филиала в ТРК Вива Лэнд на второй этаж!</a>
+			<p>Друзья,&nbsp;наш магазин в ТРК Вива Лэнд&nbsp;переехал на второй этаж (наши соседи&nbsp; "Gloria Jeans"), УЖЕ работает и ждет вас в гости!</p>
+			<!--<strong>22.01.2025</strong>-->
+		</div>
+	</article>
+	<a href="/news/">Показать все новости</a>
+</div>
+	</div><!-- .col-sm-4 col-lg-3 grid -->
+
+
+	<div class="col-sm-8 col-lg-9 grid">
+
+		
+			<div id="main_bnr" class="carousel slide hidden-xs gtm-banner main_bnr" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#main_bnr" data-slide-to="0" class="active"></li>
+				<li data-target="#main_bnr" data-slide-to="1"></li>
+			</ol>
+
+	<div class="carousel-inner" role="listbox">
+				<div class="item active">
+			<a href="#" class="img-container">
+				<img src="/i/slider/20250301-152303.jpg" /></a>
+		</div>
+				<div class="item ">
+			<a href="https://chaconne.ru/category/283/" class="img-container">
+				<img src="/i/slider/20241020-150417.jpg" /></a>
+		</div>
+			</div>
+
+	<a class="left carousel-control" href="#main_bnr" role="button" data-slide="prev">
+		<span class="fa fa-angle-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#main_bnr" role="button" data-slide="next">
+		<span class="fa fa-angle-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+
+
+<div class="slider visible-xs">
+	<div class="slider-slides">
+				<div id="slide-1">
+							<img src="/i/slider/20250301-152251.jpg" width="300" height="500" />
+					</div>
+				<div id="slide-2">
+			<a href="https://chaconne.ru/category/283/">				<img src="/i/slider/20241020-150458.jpg" width="300" height="500" />
+			</a>		</div>
+			</div>
+
+	<div class="slider-nav">
+				<a class="active" href="#slide-1"></a>
+				<a class="" href="#slide-2"></a>
+			</div>
+</div>
+
+<script>
+$('.slider-slides').each(function() {
+	var sliderTimer = null;
+	$(this).on('scroll',  function() {
+		var $this = $(this), w = $this.width();
+
+		if (sliderTimer !== null) {
+			clearTimeout(sliderTimer);
+		}
+
+		sliderTimer = setTimeout(function() {
+			$('.slider-nav a', $this.parent()).removeClass('active')
+				.eq(Math.floor($this.scrollLeft()/w)).addClass('active');
+		}, 150);
+	});
+});
+</script>
+
+			
+<div class="products">
+	<div class="site_title text-center">
+		<h2>Новинки</h2>
+	</div>
+	
+	<div class="row">
+		
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240557/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240557_1089854.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240557/" class="title text-center" title="Сорока на виселице">Сорока на виселице</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/110109/" class="author">Веркин Э.Н.</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/21240/" class="izdat">Inspiria</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>936</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240557"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240557,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240557" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4242481/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4242481_1089503.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4242481/" class="title text-center" title="Пророк. История Александра Пушкина">Пророк. История Александра Пушкина</a>
+
+		<div class="grid-row-height text-center">
+		<a href="/izdatelstvo/2757/" class="izdat">Эксмо</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<span class="year">2025</span>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>568</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4242481"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4242481,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4242481" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240585/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240585_1090281.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240585/" class="title text-center" title="Магия архетипов. Как они влияют на наше подсознание, здоровье и сценарии, по которым мы живем">Магия архетипов. Как они влияют на наше подсознание, здоровье и сценарии, по которым мы живем</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/176830/" class="author">Гозман Н.В.</a>, <a href="/author/111143/" class="author">Гончарова А.С.</a>		</div>
+
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>963</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240585"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240585,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240585" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240497/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240497_1087593.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240497/" class="title text-center" title="Закон ученого">Закон ученого</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/118128/" class="author">Силлов Д.О.</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/359/" class="izdat">АСТ</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>730</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240497"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240497,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240497" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4239634/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4239634_1086762.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4239634/" class="title text-center" title="Александр Овечкин. Портрет на фоне НХЛ">Александр Овечкин. Портрет на фоне НХЛ</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/123131/" class="author">Яременко Н.Н.</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/359/" class="izdat">АСТ</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>570</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4239634"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4239634,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4239634" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240822/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240822_1087913.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240822/" class="title text-center" title="Задача трех комнат">Задача трех комнат</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/176876/" class="author">Циньвэнь Сунь</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/21240/" class="izdat">Inspiria</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>762</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240822"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240822,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240822" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240514/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240514_1087625.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240514/" class="title text-center" title="Циклон с востока">Циклон с востока</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/80804/" class="author">Тамоников Александр</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/2757/" class="izdat">Эксмо</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>253</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240514"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240514,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240514" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240696/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240696_1087842.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240696/" class="title text-center" title="Огородный тайм-менеджмент. Эффективно организуем свое время на участке">Огородный тайм-менеджмент. Эффективно организуем свое время на участке</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/116890/" class="author">Кизима Г.А.</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/359/" class="izdat">АСТ</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>350</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240696"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240696,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240696" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240124/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240124_1087211.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240124/" class="title text-center" title="Финист. Первый богатырь. Официальная новеллизация">Финист. Первый богатырь. Официальная новеллизация</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/173191/" class="author">Каштанова Юлия</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/359/" class="izdat">АСТ</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>402</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240124"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240124,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240124" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4242314/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4242314_1089200.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4242314/" class="title text-center" title="100 дней любви к себе с Михаилом Лабковским. Ежедневник">100 дней любви к себе с Михаилом Лабковским. Ежедневник</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/139947/" class="author">Лабковский Михаил</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/2757/" class="izdat">Эксмо</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>665</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4242314"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4242314,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4242314" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4239103/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4239103_1089656.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4239103/" class="title text-center" title="Большая книга о соцсетях для предпринимателей, экспертов и блогеров">Большая книга о соцсетях для предпринимателей, экспертов и блогеров</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/176467/" class="author">Ильяхов М.О.</a>, <a href="/author/176468/" class="author">Скрябин Р.А.</a>		</div>
+
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>1&nbsp;331</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4239103"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4239103,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4239103" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4241511/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4241511_1088714.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4241511/" class="title text-center" title="Воспитание бабочек">Воспитание бабочек</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/130479/" class="author">Карризи Д.</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/995/" class="izdat">Азбука</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>949</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4241511"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4241511,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4241511" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4242644/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4242644_1089748.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4242644/" class="title text-center" title="Эйзен">Эйзен</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/135047/" class="author">Яхина Гузель</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/359/" class="izdat">АСТ</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>1&nbsp;008</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4242644"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4242644,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4242644" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4239090/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4239090_1088758.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4239090/" class="title text-center" title="Она мне не сестра">Она мне не сестра</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/140119/" class="author">Лавринович Ася</a>, <a href="/author/156539/" class="author">Хилл А.</a>		</div>
+
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>665</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4239090"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4239090,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4239090" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240558/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240558_1089655.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240558/" class="title text-center" title="Время химер">Время химер</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/82002/" class="author">Вербер Бернар</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/2757/" class="izdat">Эксмо</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>742</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240558"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240558,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240558" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240561/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240561_1088874.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240561/" class="title text-center" title="За спиной">За спиной</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/144692/" class="author">Омер Майк</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/21240/" class="izdat">Inspiria</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>790</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240561"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240561,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240561" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4241689/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4241689_1089428.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4241689/" class="title text-center" title="Надо думать! Тренажер мышления">Надо думать! Тренажер мышления</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/133681/" class="author">Непряхин Никита Юрьевич</a>, <a href="/author/177196/" class="author">Скворцов Дмитрий</a>		</div>
+
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>733</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4241689"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4241689,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4241689" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4238511/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4238511_1085431.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4238511/" class="title text-center" title="Роковой свидетель">Роковой свидетель</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/131307/" class="author">Брындза Р.</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/359/" class="izdat">АСТ</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>710</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4238511"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4238511,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4238511" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4239139/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4239139_1086208.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4239139/" class="title text-center" title="Евангелие от зверя">Евангелие от зверя</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/126031/" class="author">Головачев В.В.</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/2757/" class="izdat">Эксмо</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>1&nbsp;053</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4239139"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4239139,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4239139" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240554/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240554_1087691.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240554/" class="title text-center" title="Что дальше, миссис Норидж?">Что дальше, миссис Норидж?</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/118406/" class="author">Михалкова Елена Ивановна</a>		</div>
+
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>730</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240554"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240554,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240554" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4239358/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4239358_1086477.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4239358/" class="title text-center" title="Высший дар">Высший дар</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/112080/" class="author">Коэльо Пауло</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/359/" class="izdat">АСТ</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>637</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4239358"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4239358,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4239358" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4237509/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4237509_1086592.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4237509/" class="title text-center" title="Если все кошки в мире исчезнут">Если все кошки в мире исчезнут</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/147625/" class="author">Кавамура Г.</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/20987/" class="izdat">бомбора</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>617</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4237509"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4237509,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4237509" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4240564/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4240564_1088753.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4240564/" class="title text-center" title="Тайна мертвого ректора книга 2я">Тайна мертвого ректора книга 2я</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/177220/" class="author">Дашкевич Виктор</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/2757/" class="izdat">Эксмо</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>693</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4240564"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4240564,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4240564" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid">
+	<div class="product ">
+				<a href="/product/4239106/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4239106_1087764.w300_h350_q90.jpg" itemprop="image"></a>
+		<a href="/product/4239106/" class="title text-center" title="Миссия дикого робота">Миссия дикого робота</a>
+
+		<div class="grid-row-height text-center">
+		<i class="fa fa-user-circle-o author"></i> <a href="/author/138375/" class="author">Браун Питер</a>		</div>
+
+					<div class="grid-row-height text-center">
+			<a href="/izdatelstvo/16495/" class="izdat">Манн, Иванов</a>			</div>
+		
+		<div class="clearfix order">
+
+			
+				<div class="price"><strong><span>763</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
+				<div class="btns btns4239106"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4239106,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4239106" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
+			
+		</div>
+			</div>
+</div>	</div>
+</div>
+		
+	</div><!-- .col -->
+</div><!-- .row -->
+
+<div>
+	</div>
+
+<div>
+<h1 class="base_color">Книжный магазин Чакона</h1>
+
+<p>Вы любите литературу? Так же, как и мы? Приходите к нам, у нас более 200 000 наименований
+книг, канцтоваров, школьной продукции и изделий для творчества и рукоделия. В наших
+магазинах – а их у нас много – мы порадуем вас:</p>
+<ul>
+	<li>дружелюбной атмосферой;</li>
+	<li>компетентным и вежливым обслуживанием;</li>
+	<li>гибкой системой скидок;</li>
+	<li>разнообразными акциями и розыгрышами;</li>
+	<li>увлекательными встречами с любимыми авторами.</li>
+</ul>
+
+<p>
+Двери розничных магазинов нашей сети открыты для вас ежедневно. Для наших покупателей из
+других регионов мы предлагаем удобный интернет-магазин с возможностью доставки по России.
+В пункты самовывоза в Самаре и области мы привезем заказ бесплатно.С нашей помощью вы
+можете найти подарок любимому человеку, отыскать редкую
+книгу, собрать в школу ребенка (или приобрести комплект учебных материалов на целый класс),
+примерить и заказать школьную форму, приобрести художественную и профессиональную
+литературу.</p>
+</div>
+
+        </div>
+
+		<div class="clearfix"></div><br /><br />
+
+
+        <footer>
+            <div class="row">
+                <div class="col-sm-4">
+					<h4>Каталог товаров</h4>
+					<ul class="menu">
+						<li><a href="/category/573/">Книги</a></li><li><a href="/category/548/">Канцтовары</a></li><li><a href="/category/4654/">Товары для творчества</a></li><li><a href="/category/4494/">Развивающие игры и игрушки</a></li><li><a href="/category/5785/">Настольные игры</a></li><li><a href="/category/4557/">Пазлы</a></li><li><a href="/category/4444/">Товары для коллекционеров</a></li><li><a href="/category/347/">Настенные карты</a></li><li><a href="/category/592/">Календари</a></li><li><a href="/category/4551/">Товары для праздников</a></li>					</ul>
+				</div>
+
+				<div class="col-sm-4">
+					<h4>Покупателям</h4>
+					<ul class="menu">
+						<li><a href="/news/">Новости</a></li>
+						<li><a href="/info/delivery/">Доставка</a></li>
+						<li><a href="/info/payment.php">Оплата</a></li>
+						<li><a href="/faq/">Часто задаваемые вопросы</a></li>
+						<li><a href="/order/terms_of_return.php">Условия возврата</a></li>
+						<li><a href="/info/discount_card.php">Бонусная программа</a></li>
+						<li><a href="/info/discount.php">Скидки</a></li>
+						<li><a href="/sale/">Акции</a></li>
+						<li><a href="/info/giftcard.php">Подарочные карты</a></li>
+						<li><a href="/info/opt.php">Оптовый отдел</a></li>
+						<li><a href="/order/terms_of_service.php">Пользовательское соглашение</a></li>
+						<li><a href="/order/terms_of_private_data.php">Политика компании в отношении<br> обработки персональных данных</a></li>
+					</ul>
+                </div>
+
+                <div class="col-sm-4">
+					<h6><a data-toggle="modal" data-target="#user_er_mess" class="cur"
+						onclick="if(!$('#feedback_frame').prop('src')){$('#feedback_frame').prop('src', $('#feedback_frame').data('src'))}">
+							Сообщить об ошибке,<br>предложить улучшение</a></h6>
+					<br>
+					<h4><a href="/competition/">Конкурсы</a></h4>
+					<br>
+					<h4><a href="/info/about.php">О компании</a></h4>
+					<ul class="menu">
+						<li><a href="/info/shops.php">Наши магазины</a></li>
+						<!--<li><a href="/info/about.php">История фирмы</a></li>-->
+						<li><a href="/info/vacancy.php">Вакансии</a></li>
+						<li><a href="/info/contacts.php">Контакты</a></li>
+						<li><a href="https://vk.com/chaconne63" target="_blank">
+							<span class="fa-stack">
+								<i class="fa fa-square fa-stack-2x" style="color:#375474"></i>
+								<i class="fa fa-vk fa-stack-1x fa-inverse"></i>
+							</span>
+							Новостная группа</a></li>
+					</ul>
+					<br>
+					<h4>Консультант по заказам<br> интернет-магазина:</h4>
+					<ul class="list-unstyled">
+						<li style="padding-bottom: 9px">
+							<a href="viber://chat?number=+79170121747" class="unstyled">
+							<img src="/i/viber.svg" width="22" />
+							viber +7-917-012-17-47</a>
+						</li>
+											</ul>
+
+					<br>
+
+					<h4 class="visible-xs">Телефоны:</h4>
+					<ul class="visible-xs list-unstyled cards">
+						<li style="padding-bottom: 9px">
+							<a class="unstyled" href="tel:+7 (846) 331-22-33">
+							<img src="/i/phone.svg" width="16" height="16" />
+							+7 (846) 331-22-33</a> Самара
+							<br class="visible-xs" />с 10:00 до 20:30
+						</li>
+						<li>
+							<a class="unstyled" href="tel:+7 (8482) 55-55-88">
+							<img src="/i/phone.svg" width="16" height="16" />
+							+7 (8482) 55-55-88</a> Тольятти
+							<br class="visible-xs" />с 10:00 до 20:00
+						</li>
+					</ul>
+                </div>
+            </div><!-- .row -->
+
+			<blockquote class="small">
+				В ассортименте могут встречаться товары с символикой соцсетей Facebook и Instagram, правомерно введенные в гражданский оборот до признания экстремистской организации Meta Platforms Inc, продуктами которой они являются. Приобретение и использование этих товаров не нарушает действующее законодательство.
+			</blockquote>
+
+            <div class="text">
+                <p>© 1994-2025 Интернет-магазин "Чакона": купить книги в Самаре, Тольятти, Новокуйбышевске и Сызрани.</p>
+            </div>
+        </footer>
+
+    </div>
+
+	<div id="scrolltop-btn" title="Наверх" class="hidden-xs hide" onclick="$('html, body').animate({scrollTop:0},500)">&#8593;</div>
+
+
+	<div style="visibility:hidden;position:absolute;left:-100%" id="catalog_menu_init_container">
+	<div id="catalog_menu" class="catalog_menu">
+		<ul class="menu start" id="menucat0"><li>
+	<a class="gtm_menu_catalog cat573 next " data-id="573" href="javascript:">
+		Книги			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat548 next " data-id="548" href="javascript:">
+		Канцтовары			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat4654 next " data-id="4654" href="javascript:">
+		Товары для творчества			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat4494 next " data-id="4494" href="javascript:">
+		Развивающие игры и игрушки			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat5785 next " data-id="5785" href="javascript:">
+		Настольные игры			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat4557 next " data-id="4557" href="javascript:">
+		Пазлы			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat4444 next " data-id="4444" href="javascript:">
+		Товары для коллекционеров			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat347 end " data-id="347" href="/category/347/">
+		Настенные карты			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat592 next " data-id="592" href="javascript:">
+		Календари			</a>
+</li><li>
+	<a class="gtm_menu_catalog cat4551 next " data-id="4551" href="javascript:">
+		Товары для праздников			</a>
+</li></ul>	</div>
+</div>
+
+<script>
+var catalogMenuPath = [0], catalogMenuHeight,
+	listId = 0;
+
+
+/*------------------------------------------------------------------------------------------*/
+
+$('#catalog_menu').on('click', 'a.next', function() {
+	var _this = $(this),
+		id = _this.data('id'),
+		_id = '#menucat'+id.toString(10).replace('.','\\.'),
+		m = $(_id),
+		_show = function() {
+			catalogMenuHeight = m.height()-2/*border*/;
+			$('#catalog_menu').height(catalogMenuHeight);
+			m.css({left:0});
+			if (m.offset().top < $(window).scrollTop()) {
+				$('html,body').animate({scrollTop:m.offset().top}, 500);
+			}
+		};
+
+	catalogMenuPath.push(id);
+
+	if (!m.length) {
+		_this.addClass('wait');
+		$.get('/ajax/catalog_menu.php', {id:id, list:listId}, function(res) {
+			$('#catalog_menu').append(res);
+			m = $(_id);
+			_show();
+			_this.removeClass('wait');
+		}, 'html');
+	}
+	else {
+		_show();
+	}
+});
+
+/*------------------------------------------------------------------------------------------*/
+
+$('#catalog_menu').on('click', 'a.prev', function () {
+	var _this = $(this),
+		m = $(this).closest('.menu'),
+		id = catalogMenuPath[catalogMenuPath.length - 2],
+		_id = '#menucat'+id.toString(10).replace('.','\\.'),
+		_show = function() {
+			catalogMenuHeight = $(_id).height()-2/*border*/;
+			$('#catalog_menu').height(catalogMenuHeight);
+			m.css({left:'100%'});
+		};
+
+	catalogMenuPath.pop();
+
+	if (!$(_id).length) {
+		_this.addClass('wait');
+		$.get('/ajax/catalog_menu.php', {id:id, list:listId}, function(res) {
+			$('#catalog_menu').prepend(res);
+			$(_id).css({left:0});
+			_show();
+			_this.removeClass('wait');
+		}, 'html');
+	}
+	else {
+		_show();
+	}
+});
+
+/*------------------------------------------------------------------------------------------*/
+
+$('#catalog_menu_mob_btn').click(function() {
+	if ($(this).hasClass('active')) {
+		$('#catalog_menu_xs').css({height: catalogMenuHeight+15/*margin*/});
+		setTimeout(function() { // wait animation
+			$('#catalog_menu_xs').css({height: 'auto'});
+		}, 500);
+	}
+	else {
+		$('#catalog_menu_xs').height(catalogMenuHeight);
+		$('#catalog_menu_xs').height(0);
+	}
+
+});
+</script>
+	<div id="user_er_mess" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Сообщение</h4>
+	</div>
+
+	<div class="modal-body">
+		<iframe id="feedback_frame" data-src="/feedback_form.php"
+			width="100%" height="430" frameborder="0"></iframe>
+	</div>
+
+		</div>
+	</div>
+</div>
+
+	<div class="alert alert-warning" id="defer-not-reg-notice" style="display:none;position:absolute;width:200px;z-index:1000">
+		Пожалуйста, <a href="/enter.php">войдите</a> или <a href="/reg/">зарегистрируйтесь</a>,
+		чтобы мы могли сохранить Ваш список.
+	</div>
+
+	<script src="/js/last.js?31"></script>
+
+	
+	
+</body>
+</html>
+<!-- render time: 0,065 sec -->
