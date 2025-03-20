@@ -1,1063 +1,418 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-	<meta charset="windows-1251">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Книга Харизма. Как влиять, убеждать и вдохновлять (Фокс Кабейн Оливия, Альпина, ISBN 978-5-9614-7140-3) - купить в магазине Чакона</title>
-	<meta name="description" content="Заказать книгу Харизма. Как влиять, убеждать и вдохновлять (Фокс Кабейн Оливия, Альпина, 2018) по цене 287&#8381;  с доставкой по всей России в интернет-магазине Чакона. Читайте отзывы и рецензии на сайте." />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-	<meta name="verify-v1" content="GHyl+SoxwNckTpfvRZtQKZ3qdF0SBXVQLcpuR0eP4Tk=" />
-	<meta name="yandex-verification" content="872c43d3c57e98b6" />
-
-	<meta property="og:title" content="Книга Харизма. Как влиять, убеждать и вдохновлять (Фокс Кабейн Оливия, Альпина, ISBN 978-5-9614-7140-3) - купить в магазине Чакона" />
-    <meta property="og:description" content="Заказать книгу Харизма. Как влиять, убеждать и вдохновлять (Фокс Кабейн Оливия, Альпина, 2018) по цене 287&#8381;  с доставкой по всей России в интернет-магазине Чакона. Читайте отзывы и рецензии на сайте." />
-    <meta property="og:image" content="https://img.chaconne.ru/img/4002010_834028.jpg" />
-    <meta property="og:url" content="https://chaconne.ru/product/4002010/" />
-    <meta property="og:site_name" content="Интернет магазин Чакона" />
-    <meta property="og:locale" content="ru_RU" />
-    <meta property="og:type" content="website" />
-
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="mobile-web-app-capable" content="yes">
-
-	
-
-	<link rel="shortcut icon" href="/favicon.ico" />
-
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json?v=3">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-    <link href="/bs3/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/css/fonts/fonts.css" rel="stylesheet" />
-    <link href="/css/site_components.css?115" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css" href="/css/lightgallery.css" />
-	<script src="https://yastatic.net/jquery/1.12.3/jquery.min.js"></script>
-	<script src="/bs3/js/bootstrap.min.js"></script>
-	<script src="/js/ext/jquery.autocomplete.min.js"></script>
-	<script src="/js/checkForm.js?9"></script>
-	<script src="/js/all.js?16"></script>
-
-	<script type="text/javascript" src="/js/ext/lightgallery.min.js"></script>
-<script charset="windows-1251">
-dataLayer = [];
-
-dataLayer.push({
-		event: "view_item",
-		ecommerce: {
-			items: [{"item_id":"4002010","item_name":"Харизма. Как влиять, убеждать и вдохновлять","item_category":"Книги","price":287,"item_brand":"Альпина","quantity":1}]
-		}
-	});
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PG9X783');</script>
-<!-- End Google Tag Manager -->
-
-</head>
-<body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG9X783"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-    <div class="container page_container">
-		<header id="mobile_header" class="visible-xs">
-	
-	
-	
-	<div id="menu_xs" class="row">
-		<div class="col-xs-2">
-			<a href="/">
-				<img src="/i/favicon.svg" width="20" height="20" />
-				<br>
-				<span>Главная</span>
-			</a>
-		</div>
-		<div class="col-xs-2">
-			<a href="javascript:" id="catalog_menu_mob_btn">
-				<i class="fa fa-bars fa-lg"></i><br>
-				<span>Каталог</span>
-			</a>
-		</div>
-				<div class="col-xs-2">
-			<a href="/sale/">
-				<i class="fa fa-tag fa-flip-horizontal"></i>
-				<br>
-				<span>Акции</span>
-			</a>
-		</div>
-		<div class="col-xs-2">
-			<a href="/info/opt.php">
-				<i class="fa fa-university fa-lg"></i>
-				<br>
-				<span>Школам</span>
-			</a>
-		</div>
-				<div class="col-xs-2">
-			<a href="/enter.php">
-				<i class="fa fa fa-vcard-o fa-lg"></i><br>
-				<span>Личное</span>
-			</a>
-		</div>
-		<div class="col-xs-2">
-			<a href="/cart.php">
-				<i class="fa fa-shopping-cart fa-lg"></i>
-				<br>
-				<span>Корзина</span>
-			</a>
-						<div class="badge cart-badge hide"></div>
-					</div>
-	</div>
-
-	<div id="sform_xs"></div>
-
-	<div id="catalog_menu_xs"></div>
-
-	
-	<div id="lk_xs">
-		
-<div class="catalog_menu">
-	<ul class="menu">
-				<li>
-			<a class="end "
-			   href="/user/index.php">Мои заказы</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/reserve.php">Отложенные в филиале</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/defer.php">Закладки</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/notice.php">Уведомления</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/card.php">Карта клиента</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/preferences.php">Настройки</a>
-		</li>
-				<li>
-			<a href="/exit.php" class="end">Выход</a>
-		</li>
-	</ul>
-</div>	</div>
-</header>
-
-<script>
-$('#menu_xs a').click(function() {
-	$('#menu_xs a.active').not(this).click();
-	$(this).toggleClass('active');
-}).each(function() {
-	if ($(this).attr('href') === location.pathname) {
-		$(this).addClass('active');
-		return false;
-	}
-});
-</script><header class="hidden-xs">
-	<section class="main">
-		<div class="row">
-
-			<div class="col-sm-3">
-				<a href="/" class="logo">
-					<img src="/i/logo2.svg" />
-				</a>
-			</div>
-
-			<div class="col-sm-6 pad0">
-				
-
-<div class="phone" style="padding-top: 15px;">
-	<a class="unstyled" href="tel:+7 (846) 331-22-33">
-		<img src="/i/phone.svg" width="15" height="15" />
-		+7 (846) 331-22-33	</a>
-	<p>с 10:00 до 20:00</p>
-</div>
-
-<div class="phone" style="padding-top: 15px;">
-	<a href="tel:+7 (8482) 55-55-88">
-		<img src="/i/phone.svg" width="15" height="15" />
-		+7 (8482) 55-55-88
-	</a>
-	<p>с 10:00 до 20:00</p>
-</div>
-
-			</div>
-
-			
-			<div class="col-sm-3">
-				<div class="cart" id="cart" style="padding-top: 15px;">
-	<a href="/cart.php" class="modal-toggle clearfix">
-		<img src="/i/cart_icon.svg" width="32" height="32" />
-		<span class="text">
-						В корзине пока пусто
-					</span>
-	</a>
-</div>			</div>
-
-			<div class="col-sm-12 header-nav-container">
-				<nav class="header-nav">
-					<a href="/info/opt.php">
-						<i class="fa fa-university" style="font-size:1.2em;vertical-align:-8%;"></i>&nbsp;Родителям и школам
-					</a>
-					<a href="/info/delivery/">
-						<i class="fa fa-truck fa-flip-horizontal fa-lg"></i>&nbsp;Доставка
-					</a>
-					<a href="/info/shops.php">
-						<i class="fa fa-shopping-bag" style="font-size:1.15em"></i>&nbsp;Наши магазины
-					</a>
-					<a href="/info/discount.php">
-						<i class="fa fa-percent" style="font-size:1.2em;vertical-align:-7%;"></i>&nbsp;Скидки
-					</a>
-					<a href="/sale/">
-						<i class="fa fa-tag fa-flip-horizontal" style="font-size:1.2em;vertical-align:-7%;"></i>&nbsp;Акции
-					</a>
-					<a href="/enter.php" rel="nofollow">
-						<i class="fa fa-vcard-o" style="font-size:1.2em;vertical-align:-8%;"></i>&nbsp;Мой кабинет
-					</a>
-				</nav>
-			</div>
-		</div>
-	</section>
-</header>
-		<div id="sform_lg">
-			<form class="search" id="sform" action="/search/" onsubmit="return inCheck('#sform')">
-	<input id="search" name="q" type="text" class="form-control" placeholder="Введите для поиска слова, ISBN или код товара" maxlength="100" value="" />
-	<button class="btn-clear hide " type="button" id="srch_clr"><i class="fa fa-times"></i></button>
-	<button class="btn" type="submit"><i class="fa fa-search"></i></button>
-
-	<input type="checkbox" name="kat" id="srch_cat" value="0" class="dis" />
-	<div class="xs-search-cat-label cgr dis">Искать в:</div>
-	<div class="custom_select dropdown">
-		<button class="form-control dropdown-toggle" data-toggle="dropdown" type="button">
-			<span class="text">Во всех разделах</span>
-		</button>
-		<ul id="srch_cat_list" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-<li><a tabindex="-1" href="javascript:;" class="srch-cat-0">Во всех разделах</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-573">Книги</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-548">Канцтовары</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4654">Товары для творчества</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4494">Развивающие игры и игрушки</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-5785">Настольные игры</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4557">Пазлы</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4444">Товары для коллекционеров</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-347">Настенные карты</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-592">Календари</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4551">Товары для праздников</a></li>		</ul>
-	</div>
-
-</form>		</div>
-
-
-        <div class="page_content">
-			
-<nav class="bread_crumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-	<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/"><span itemprop="name">Все товары</span></a>
-		<meta itemprop="position" content="1" />
-	</span><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/category/573/"><span itemprop="name">Книги</span></a>
-		<meta itemprop="position" content="2" />
-	</span><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/category/3603/"><span itemprop="name">Гуманитарные и общественные науки</span></a>
-		<meta itemprop="position" content="3" />
-	</span><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/category/242/"><span itemprop="name">Популярная психология</span></a>
-		<meta itemprop="position" content="4" />
-	</span><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/category/7196/"><span itemprop="name">Психология влияния</span></a>
-		<meta itemprop="position" content="5" />
-	</span></nav>
-
-
-<div class="product_info" itemscope itemtype="http://schema.org/Product">
-
-	<h1 itemprop="name">Харизма. Как влиять, убеждать и вдохновлять</h1>
-
-	<div class="row">
-
-		<div class="col-md-4">
-
-
-			<div id="product_slider" class="carousel">
-
-				<div class="carousel-inner">
-					<div class="item active" data-src="https://img.chaconne.ru/img/4002010_834028.jpg" data-thumb="https://img.chaconne.ru/rsz/img/4002010_834028.w300_h350.jpg">
-				<a title="Купить Харизма. Как влиять, убеждать и вдохновлять" class="img-container">
-					<img src="https://img.chaconne.ru/rsz/img/4002010_834028.w300_h350.jpg" itemprop="image" /></a>
-			</div>				</div>
-
-				
-			</div><!-- .carousel -->
-
-
-		</div>
-
-
-
-		<div class="col-sm-7 col-md-5">
-			<div class="product_text">
-				<!--h1 itemprop="name">Харизма. Как влиять, убеждать и вдохновлять</h1-->
-
-				<table>
-					<tbody>
-						<tr>
-							<td>Код товара</td>
-							<td>4002010</td>
-						</tr>
-
-<tr><td>Автор</td><td><a href="/author/138328/" class="author">Фокс Кабейн Оливия</a></td></tr><tr><td>Издательство</td>
-		<td><a href="/izdatelstvo/2336/"><span itemprop="brand">Альпина</span></a></td></tr><tr><td>Год выпуска</td><td>2018</td></tr><tr><td>ISBN</td><td>978-5-9614-7140-3</td></tr><tr><td>Вес</td>
-		<td>280 г</td></tr><tr><td>Оформление</td><td>мягкая обложка</td></tr><tr><td>Кол-во страниц</td>
-		<td>432</td></tr><tr><td>Размер</td>
-		<td>120х165</td></tr><tr><td><br>Наличие в е-магазине</td>
-	<td><br><b>есть в наличии</b></td></tr>					</tbody>
-				</table>
-
-			</div>
-		</div><!-- .col -->
-
-
-
-		<div class="col-sm-5 col-md-3">
-
-			<div class="order_block" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-				<meta itemprop="priceCurrency" content="RUB"/>
-				<meta itemprop="price" content="287">
-
-						<!-- h5>Цена в интернет-магазине</h5 -->
-
-		<div class="price"><strong><span>287</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-		<div class="btns btns4002010"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4002010,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4002010" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>	
-		<div class="rozn small">
-		<strong>Цена в розничном магазине</strong>
-		<div class="price"><strong><span>331</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<button class="btn btn-success btn-sm" href="#nalich" onclick="$('#nalich_btn').click();$(window).scrollTop($('#nalich_btn').offset().top)">Отложить в филиале</button>
-			</div>
-	
-
-			</div><!-- .order_block -->
-
-
-			<div style="margin-bottom:35px;height:40px;padding-top:6px;">
-<script src="https://yastatic.net/share2/share.js"></script>
-<div class="ya-share2 text-center" data-curtain data-limit="3" data-services="vkontakte,odnoklassniki,telegram,moimir,evernote,lj"></div>
-</div>
-		</div><!-- .col -->
-	</div><!-- .row -->
-
-
-
-	<div class="product_tab">
-
-		<ul class="nav nav-tabs" role="tablist">
-			<li role="presentation" class="active">
-				<a href="#description" aria-controls="description" role="tab" data-toggle="tab">
-					<span>Описание</span>
-				</a>
-			</li>
-			<li role="presentation">
-				<a href="#nalich" name="nalich" aria-controls="nalich"
-				   role="tab" data-toggle="tab" id="nalich_btn">
-					<span>Наличие в магазинах</span>
-				</a>
-			</li>
-			<li role="presentation">
-				<a href="#discount" name="discount" aria-controls="discount"
-				   role="tab" data-toggle="tab" id="discount_btn">
-					<span>Скидки</span>
-				</a>
-			</li>
-			<li role="presentation">
-				<a href="#extrainfo" name="extrainfo" aria-controls="extrainfo"
-				   role="tab" data-toggle="tab" id="extrainfo_btn">
-					<span>Запрос информации</span>
-				</a>
-			</li>
-		</ul>
-
-		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="description">
-				<div id="description_wrap" itemprop="description">
-					Книга развенчивает один из самых закостенелых мифов современности о том, что харизма – дар богов. Многие считают, что это врожденное качество, и воспринимают харизматичную личность чуть ли не как сверхчеловека. Но это совсем не так. Сравните записи ранних выступлений Стива Джобса с его последними обращениями к публике и вы увидите, насколько харизматичнее он стал. Оливия Фокс Кабейн доказывает, что харизма – это навык, который вполне по силам освоить каждому.				</div>
-				<div id="description_more" class="hidden tb text-center">
-					<a href="javascript:">показать полностью</a>
-				</div>
-
-							</div>
-			<div role="tabpanel" class="tab-pane" id="nalich">
-				<div class="text-center"><i class="fa fa-5x fa-spinner fa-pulse"></i></div>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="extrainfo">
-				<div class="text-center"><i class="fa fa-5x fa-spinner fa-pulse"></i></div>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="discount">
-				<div class="text-center"><i class="fa fa-5x fa-spinner fa-pulse"></i></div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="row">
-		<div class="col-md-12">
-
-	<hr /><br /><br />
-	<h4>Рецензии и отзывы на книгу "Харизма. Как влиять, убеждать и вдохновлять"</h4>
-<p>Ваш отзыв будет первым</p><br />
-<button type="button" class="btn btn-primary btn-lg show-comment-form-btn">Оставить отзыв</button>
-<div class="small" id="comment"></div>
-
-<br /><br />
-
-		</div>
-
-	</div><!-- .row -->
-</div><!-- .product_info -->
-
-<script>
-var nalichLoadedFlg = false,
-	extrainfoLoadedFlg = false,
-	discountLoadedFlg = false;
-
-$('#nalich_btn').click(function() {
-	if (nalichLoadedFlg) {
-		return;
-	}
-
-	$.getScript("https://api-maps.yandex.ru/2.1/?lang=ru-RU", function() {
-		$('#nalich').load('/block/nalich.php?id=4002010');
-		nalichLoadedFlg = true;
-	});
-});
-
-$('#extrainfo_btn').click(function() {
-	if (extrainfoLoadedFlg) {
-		return;
-	}
-
-	$('#extrainfo').load('/block/extrainfo.php?id=4002010');
-	extrainfoLoadedFlg = true;
-});
-
-$('#discount_btn').click(function() {
-	if (discountLoadedFlg) {
-		return;
-	}
-
-	$('#discount').load('/block/discount.php');
-	discountLoadedFlg = true;
-});
-
-$('.show-comment-form-btn').click(function() {
-	$(this).slideUp();
-	$('#comment').load('/block/comment.php?id=4002010');
-});
-
-$(function() {
-	var descrDiv = $('#description_wrap'), descrDivH;
-	if (descrDiv.height() > 400) {
-		descrDivH = descrDiv.height();
-		descrDiv.height(400);
-		$('#description_more').removeClass('hidden').click(function() {
-			descrDiv.height(descrDivH);
-			$(this).remove();
-		});
-	}
-
-	$('.carousel .carousel-inner').lightGallery({
-		download:false,
-		exThumbImage:'data-thumb'
-	});
-
-//	$('.carousel-indicators li').click(function() {
-//		var i = $(this, '.carousel-indicators').index();
-//		$('.carousel-inner div').eq(i).click();
-//	});
-});
-</script>
-<br><br><div class="products slidepanel-wrap gtm_bestsellers">
-	<div class="site_title small_margin">
-		<h4>Лидеры продаж</h4>
-	</div>
-
-	<div class="slidepanel-wrap">
-		<div class="slidepanel-container">
-			<div class="slidepanel">
-				<table><tr>
-					<td>
-	<div class="product">
-				<a href="/product/4218174/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4218174_1062808.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4218174/" class="title text-center" title="28 тактик манипулирования и защиты. Как не дать собеседнику взять контроль над вами">28 тактик манипулирования и защиты. Как не дать собеседнику взять контроль над вами</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/171469/" class="author">Аглашевич Павел</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>742</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4218174"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4218174,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4218174" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4173468/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4173468_1012162.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4173468/" class="title text-center" title="Токсичные родители. Как вернуть себе нормальную жизнь">Токсичные родители. Как вернуть себе нормальную жизнь</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/158816/" class="author">Бак Крейг</a>, <a href="/author/124197/" class="author">Форвард Сюзан</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>326</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4173468"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4173468,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4173468" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4055160/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4055160_1090294.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4055160/" class="title text-center" title="Психология влияния. Убеждай, воздействуй, защищайся">Психология влияния. Убеждай, воздействуй, защищайся</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/116061/" class="author">Чалдини Роберт</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>870</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4055160"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4055160,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4055160" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4200379/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4200379_1041989.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4200379/" class="title text-center" title="Взрослые дети нарциссов. Как исцелить травмы и научиться строить здоровые отношения">Взрослые дети нарциссов. Как исцелить травмы и научиться строить здоровые отношения</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/156580/" class="author">Араби Шахида</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price">
-				<span>717</span>&nbsp;
-				<strong class="cr"><span>621</span>&nbsp;<i class="fa fa-rouble"></i></strong>
-			</div>
-				<div class="btns btns4200379"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4200379,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4200379" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4211854/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4211854_1054484.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4211854/" class="title text-center" title="Ложь под микроскопом. Проникающий метод. Быстрое определение лжи и выявление правды">Ложь под микроскопом. Проникающий метод. Быстрое определение лжи и выявление правды</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/169624/" class="author">Анищенко Илья Валерьевич</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>608</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4211854"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4211854,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4211854" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4076596/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4076596_931166.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4076596/" class="title text-center" title="Опасные личности. Как их вычислить и не дать манипулировать собой">Опасные личности. Как их вычислить и не дать манипулировать собой</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/131939/" class="author">Наварро Джо</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>568</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4076596"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4076596,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4076596" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4212360/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4212360_1055276.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4212360/" class="title text-center" title="Как убедить собеседника рассказать все">Как убедить собеседника рассказать все</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/169752/" class="author">Лукин Александр Владимирович</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>453</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4212360"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4212360,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4212360" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4227691/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4227691_1073829.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4227691/" class="title text-center" title="Договориться не проблема. Как добиваться своего без конфликтов и ненужных уступок">Договориться не проблема. Как добиваться своего без конфликтов и ненужных уступок</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/124597/" class="author">Восс Крис</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>373</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4227691"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4227691,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4227691" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/2669114/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/2669114_855724.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/2669114/" class="title text-center" title="Психология влияния. Как научиться убеждать и добиваться успеха">Психология влияния. Как научиться убеждать и добиваться успеха</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/35480/" class="author">Чалдини</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>358</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns2669114"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(2669114,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="2669114" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4216960/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4216960_1061301.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4216960/" class="title text-center" title="Техники пре-убеждения. Как получить согласие оппонента еще до начала переговоров">Техники пре-убеждения. Как получить согласие оппонента еще до начала переговоров</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/116061/" class="author">Чалдини Роберт</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>617</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4216960"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4216960,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4216960" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/3801916/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/3801916.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/3801916/" class="title text-center" title="Психология влияния. Как научиться убеждать и добиваться успеха">Психология влияния. Как научиться убеждать и добиваться успеха</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/35480/" class="author">Чалдини</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>716</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns3801916"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(3801916,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="3801916" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4232214/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4232214_1078294.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4232214/" class="title text-center" title="Не дайте себя обмануть!">Не дайте себя обмануть!</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/174824/" class="author">Щербатых Юрий</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>402</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4232214"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4232214,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4232214" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4110557/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4110557_958417.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4110557/" class="title text-center" title="Психология влияния. Внушай, управляй, защищайся">Психология влияния. Внушай, управляй, защищайся</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/116061/" class="author">Чалдини Роберт</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>499</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4110557"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4110557,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4110557" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/2515303/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/2515303_1088269.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/2515303/" class="title text-center" title="Психология лжи. Обмани меня, если сможешь">Психология лжи. Обмани меня, если сможешь</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/37756/" class="author">Экман</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>604</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns2515303"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(2515303,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="2515303" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4036284/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4036284_910793.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4036284/" class="title text-center" title="Манипулирование и защита от манипуляций">Манипулирование и защита от манипуляций</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/117851/" class="author">Шейнов В.П.</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>402</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4036284"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4036284,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4036284" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4170447/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4170447_1008956.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4170447/" class="title text-center" title="Не орите на меня! 8 способов ухода от психологической агрессии">Не орите на меня! 8 способов ухода от психологической агрессии</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/156647/" class="author">Романов Игорь</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>433</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4170447"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4170447,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4170447" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4027195/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4027195_877357.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4027195/" class="title text-center" title="Психология лжи. Обмани меня, если сможешь">Психология лжи. Обмани меня, если сможешь</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/123346/" class="author">Экман П.</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>402</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4027195"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4027195,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4027195" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/3968009/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/3968009_777880.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/3968009/" class="title text-center" title="Психология влияния. Внушай, управляй, защищайся">Психология влияния. Внушай, управляй, защищайся</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/116061/" class="author">Чалдини Роберт</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>474</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns3968009"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(3968009,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="3968009" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/3955879/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/3955879_748876.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/3955879/" class="title text-center" title="Договориться не проблема. Как добиваться своего без конфликтов и ненужных уступок">Договориться не проблема. Как добиваться своего без конфликтов и ненужных уступок</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/124597/" class="author">Восс Крис</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>456</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns3955879"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(3955879,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="3955879" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4136965/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4136965_975932.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4136965/" class="title text-center" title="Пре-убеждение. Как получить согласие оппонента еще до начала переговоров">Пре-убеждение. Как получить согласие оппонента еще до начала переговоров</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/116061/" class="author">Чалдини Роберт</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>514</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4136965"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4136965,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4136965" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td>				</tr></table>
-			</div>
-		</div>
-		<a href="javascript:" onclick="slidePan(-1, this)" class="slidepanel-btn" role="button"></a>
-		<a href="javascript:" onclick="slidePan(1, this)" class="slidepanel-btn right" role="button"></a>
-
-		<ol class="carousel-indicators hidden-xs"></ol>
-	</div>
-</div>
-
-	<div class="panel-footer" style="border:none">
-	Купить книгу "Харизма. Как влиять, убеждать и вдохновлять", Фокс Кабейн Оливия, (издательство Альпина, мягкая обложка) с доставкой можно в интернет-магазине или одном из магазинов розничной сети Чакона (Самара, Тольятти, Новокуйбышевск, Сызрань). Оформите заказ сейчас или добавьте книгу "Харизма. Как влиять, убеждать и вдохновлять" в свой список желаний.
-	</div>
+<!DOCTYPE HTML>
+<html lang="ru-RU" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Использование потоков для параллельного выполнения кода - Язык программирования Rust</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="ferris.css">
+        <link rel="stylesheet" href="theme/2018-edition.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="title-page.html">Язык программирования Rust</a></li><li class="chapter-item expanded affix "><a href="foreword.html">Предисловие</a></li><li class="chapter-item expanded affix "><a href="ch00-00-introduction.html">Введение</a></li><li class="chapter-item expanded "><a href="ch01-00-getting-started.html"><strong aria-hidden="true">1.</strong> С чего начать</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch01-01-installation.html"><strong aria-hidden="true">1.1.</strong> Установка</a></li><li class="chapter-item expanded "><a href="ch01-02-hello-world.html"><strong aria-hidden="true">1.2.</strong> Привет, Мир!</a></li><li class="chapter-item expanded "><a href="ch01-03-hello-cargo.html"><strong aria-hidden="true">1.3.</strong> Hello, Cargo!</a></li></ol></li><li class="chapter-item expanded "><a href="ch02-00-guessing-game-tutorial.html"><strong aria-hidden="true">2.</strong> Программирование игры в загадки</a></li><li class="chapter-item expanded "><a href="ch03-00-common-programming-concepts.html"><strong aria-hidden="true">3.</strong> Общие концепции программирования</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch03-01-variables-and-mutability.html"><strong aria-hidden="true">3.1.</strong> Переменные и изменяемость</a></li><li class="chapter-item expanded "><a href="ch03-02-data-types.html"><strong aria-hidden="true">3.2.</strong> Типы Данных</a></li><li class="chapter-item expanded "><a href="ch03-03-how-functions-work.html"><strong aria-hidden="true">3.3.</strong> Функции</a></li><li class="chapter-item expanded "><a href="ch03-04-comments.html"><strong aria-hidden="true">3.4.</strong> Комментарии</a></li><li class="chapter-item expanded "><a href="ch03-05-control-flow.html"><strong aria-hidden="true">3.5.</strong> Управляющие конструкции</a></li></ol></li><li class="chapter-item expanded "><a href="ch04-00-understanding-ownership.html"><strong aria-hidden="true">4.</strong> Понимание владения</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch04-01-what-is-ownership.html"><strong aria-hidden="true">4.1.</strong> Что такое "владение"?</a></li><li class="chapter-item expanded "><a href="ch04-02-references-and-borrowing.html"><strong aria-hidden="true">4.2.</strong> Ссылки и заимствование</a></li><li class="chapter-item expanded "><a href="ch04-03-slices.html"><strong aria-hidden="true">4.3.</strong> Тип среза</a></li></ol></li><li class="chapter-item expanded "><a href="ch05-00-structs.html"><strong aria-hidden="true">5.</strong> Использование структур для объединения связанных данных</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch05-01-defining-structs.html"><strong aria-hidden="true">5.1.</strong> Определение и создание экземпляров структур</a></li><li class="chapter-item expanded "><a href="ch05-02-example-structs.html"><strong aria-hidden="true">5.2.</strong> Пример программы, использующей структуры</a></li><li class="chapter-item expanded "><a href="ch05-03-method-syntax.html"><strong aria-hidden="true">5.3.</strong> Синтаксис метода</a></li></ol></li><li class="chapter-item expanded "><a href="ch06-00-enums.html"><strong aria-hidden="true">6.</strong> Перечисления и сопоставление с образцом</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch06-01-defining-an-enum.html"><strong aria-hidden="true">6.1.</strong> Определение Enum</a></li><li class="chapter-item expanded "><a href="ch06-02-match.html"><strong aria-hidden="true">6.2.</strong> Конструкция потока управления match</a></li><li class="chapter-item expanded "><a href="ch06-03-if-let.html"><strong aria-hidden="true">6.3.</strong> Лаконичный поток управления с if let</a></li></ol></li><li class="chapter-item expanded "><a href="ch07-00-managing-growing-projects-with-packages-crates-and-modules.html"><strong aria-hidden="true">7.</strong> Управление растущими проектами с помощью пакетов, крейтов и модулей</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch07-01-packages-and-crates.html"><strong aria-hidden="true">7.1.</strong> Пакеты и крейты</a></li><li class="chapter-item expanded "><a href="ch07-02-defining-modules-to-control-scope-and-privacy.html"><strong aria-hidden="true">7.2.</strong> Определение модулей для управления областью действия и конфиденциальностью</a></li><li class="chapter-item expanded "><a href="ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html"><strong aria-hidden="true">7.3.</strong> Пути для ссылки на элемент в дереве модулей</a></li><li class="chapter-item expanded "><a href="ch07-04-bringing-paths-into-scope-with-the-use-keyword.html"><strong aria-hidden="true">7.4.</strong> Введение путей в область видимости с помощью ключевого слова use</a></li><li class="chapter-item expanded "><a href="ch07-05-separating-modules-into-different-files.html"><strong aria-hidden="true">7.5.</strong> Separating Modules into Different Files</a></li></ol></li><li class="chapter-item expanded "><a href="ch08-00-common-collections.html"><strong aria-hidden="true">8.</strong> Общие коллекции</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch08-01-vectors.html"><strong aria-hidden="true">8.1.</strong> Хранение списков значений с векторами</a></li><li class="chapter-item expanded "><a href="ch08-02-strings.html"><strong aria-hidden="true">8.2.</strong> Хранение закодированного текста UTF-8 со строками</a></li><li class="chapter-item expanded "><a href="ch08-03-hash-maps.html"><strong aria-hidden="true">8.3.</strong> Хранение ключей со связанными значениями в HashMap</a></li></ol></li><li class="chapter-item expanded "><a href="ch09-00-error-handling.html"><strong aria-hidden="true">9.</strong> Обработка ошибок</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch09-01-unrecoverable-errors-with-panic.html"><strong aria-hidden="true">9.1.</strong> Неустранимые ошибки с panic!</a></li><li class="chapter-item expanded "><a href="ch09-02-recoverable-errors-with-result.html"><strong aria-hidden="true">9.2.</strong> Устранимые ошибки с Result</a></li><li class="chapter-item expanded "><a href="ch09-03-to-panic-or-not-to-panic.html"><strong aria-hidden="true">9.3.</strong> panic! или Не panic!</a></li></ol></li><li class="chapter-item expanded "><a href="ch10-00-generics.html"><strong aria-hidden="true">10.</strong> Общие типы, трейты (характеристики) и время жизни</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch10-01-syntax.html"><strong aria-hidden="true">10.1.</strong> Обобщённые типы данных</a></li><li class="chapter-item expanded "><a href="ch10-02-traits.html"><strong aria-hidden="true">10.2.</strong> Трейты (характеристики): определение разделяемого поведения</a></li><li class="chapter-item expanded "><a href="ch10-03-lifetime-syntax.html"><strong aria-hidden="true">10.3.</strong> Валидация ссылок посредством сроков жизни</a></li></ol></li><li class="chapter-item expanded "><a href="ch11-00-testing.html"><strong aria-hidden="true">11.</strong> Написание автоматических тестов</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch11-01-writing-tests.html"><strong aria-hidden="true">11.1.</strong> Как писать тесты</a></li><li class="chapter-item expanded "><a href="ch11-02-running-tests.html"><strong aria-hidden="true">11.2.</strong> Управление выполнением тестов</a></li><li class="chapter-item expanded "><a href="ch11-03-test-organization.html"><strong aria-hidden="true">11.3.</strong> Организация тестов</a></li></ol></li><li class="chapter-item expanded "><a href="ch12-00-an-io-project.html"><strong aria-hidden="true">12.</strong> Проект с вводом-выводом: создание программы командной строки</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch12-01-accepting-command-line-arguments.html"><strong aria-hidden="true">12.1.</strong> Получение аргументов командной строки</a></li><li class="chapter-item expanded "><a href="ch12-02-reading-a-file.html"><strong aria-hidden="true">12.2.</strong> Чтение файла</a></li><li class="chapter-item expanded "><a href="ch12-03-improving-error-handling-and-modularity.html"><strong aria-hidden="true">12.3.</strong> Рефакторинг для обеспечения модульности и улучшения обработки ошибок</a></li><li class="chapter-item expanded "><a href="ch12-04-testing-the-librarys-functionality.html"><strong aria-hidden="true">12.4.</strong> Разработка функциональности библиотеки с помощью разработки через тестирование</a></li><li class="chapter-item expanded "><a href="ch12-05-working-with-environment-variables.html"><strong aria-hidden="true">12.5.</strong> Работа с переменными среды</a></li><li class="chapter-item expanded "><a href="ch12-06-writing-to-stderr-instead-of-stdout.html"><strong aria-hidden="true">12.6.</strong> Запись сообщений об ошибках в stderr вместо stdout</a></li></ol></li><li class="chapter-item expanded "><a href="ch13-00-functional-features.html"><strong aria-hidden="true">13.</strong> Функциональные возможности языка: итераторы и замыкания</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch13-01-closures.html"><strong aria-hidden="true">13.1.</strong> Замыкания: анонимные функции, которые захватывают своё окружение</a></li><li class="chapter-item expanded "><a href="ch13-02-iterators.html"><strong aria-hidden="true">13.2.</strong> Обработка последовательности элементов с помощью итераторов</a></li><li class="chapter-item expanded "><a href="ch13-03-improving-our-io-project.html"><strong aria-hidden="true">13.3.</strong> Улучшение нашего проекта с вводом/выводом</a></li><li class="chapter-item expanded "><a href="ch13-04-performance.html"><strong aria-hidden="true">13.4.</strong> Сравнение производительности: циклы и итераторы</a></li></ol></li><li class="chapter-item expanded "><a href="ch14-00-more-about-cargo.html"><strong aria-hidden="true">14.</strong> Подробнее о Cargo и Crates.io</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch14-01-release-profiles.html"><strong aria-hidden="true">14.1.</strong> Настройка билдов с помощью профилей выпуска</a></li><li class="chapter-item expanded "><a href="ch14-02-publishing-to-crates-io.html"><strong aria-hidden="true">14.2.</strong> Публикация крейта на Crates.io</a></li><li class="chapter-item expanded "><a href="ch14-03-cargo-workspaces.html"><strong aria-hidden="true">14.3.</strong> Рабочие области Cargo</a></li><li class="chapter-item expanded "><a href="ch14-04-installing-binaries.html"><strong aria-hidden="true">14.4.</strong> Установка бинарных файлов с Crates.io с помощью cargo install</a></li><li class="chapter-item expanded "><a href="ch14-05-extending-cargo.html"><strong aria-hidden="true">14.5.</strong> Расширение возможностей Cargo путём добавления пользовательских команд</a></li></ol></li><li class="chapter-item expanded "><a href="ch15-00-smart-pointers.html"><strong aria-hidden="true">15.</strong> Умные указатели</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch15-01-box.html"><strong aria-hidden="true">15.1.</strong> Использование Box&lt;T&gt; для указания на данные в куче</a></li><li class="chapter-item expanded "><a href="ch15-02-deref.html"><strong aria-hidden="true">15.2.</strong> Работа с умными указателями как с обычными ссылками с помощью трейта Deref</a></li><li class="chapter-item expanded "><a href="ch15-03-drop.html"><strong aria-hidden="true">15.3.</strong> Выполнение кода при очистке с помощью трейта Drop</a></li><li class="chapter-item expanded "><a href="ch15-04-rc.html"><strong aria-hidden="true">15.4.</strong> Rc&lt;T&gt;, умный указатель с подсчётом ссылок</a></li><li class="chapter-item expanded "><a href="ch15-05-interior-mutability.html"><strong aria-hidden="true">15.5.</strong> RefCell&lt;T&gt; и внутренняя изменяемость</a></li><li class="chapter-item expanded "><a href="ch15-06-reference-cycles.html"><strong aria-hidden="true">15.6.</strong> Ссылочные циклы могут привести к утечке памяти</a></li></ol></li><li class="chapter-item expanded "><a href="ch16-00-concurrency.html"><strong aria-hidden="true">16.</strong> Безбоязненный параллелизм</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch16-01-threads.html" class="active"><strong aria-hidden="true">16.1.</strong> Использование потоков для параллельного выполнения кода</a></li><li class="chapter-item expanded "><a href="ch16-02-message-passing.html"><strong aria-hidden="true">16.2.</strong> Пересылка сообщений для передачи данных между потоками</a></li><li class="chapter-item expanded "><a href="ch16-03-shared-state.html"><strong aria-hidden="true">16.3.</strong> Параллелизм с общим состоянием</a></li><li class="chapter-item expanded "><a href="ch16-04-extensible-concurrency-sync-and-send.html"><strong aria-hidden="true">16.4.</strong> Расширяемый параллелизм с помощью трейтов Sync и Send</a></li></ol></li><li class="chapter-item expanded "><a href="ch17-00-oop.html"><strong aria-hidden="true">17.</strong> Возможности объектно-ориентированного программирования Rust</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch17-01-what-is-oo.html"><strong aria-hidden="true">17.1.</strong> Характеристики объектно-ориентированных языков</a></li><li class="chapter-item expanded "><a href="ch17-02-trait-objects.html"><strong aria-hidden="true">17.2.</strong> Использование трейт-объектов, допускающих значения разных типов</a></li><li class="chapter-item expanded "><a href="ch17-03-oo-design-patterns.html"><strong aria-hidden="true">17.3.</strong> Реализация шаблона объектно-ориентированного проектирования</a></li></ol></li><li class="chapter-item expanded "><a href="ch18-00-patterns.html"><strong aria-hidden="true">18.</strong> Шаблоны и сопоставление</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch18-01-all-the-places-for-patterns.html"><strong aria-hidden="true">18.1.</strong> Все места, где могут использоваться шаблоны</a></li><li class="chapter-item expanded "><a href="ch18-02-refutability.html"><strong aria-hidden="true">18.2.</strong> Опровержимость: может ли шаблон не соответствовать</a></li><li class="chapter-item expanded "><a href="ch18-03-pattern-syntax.html"><strong aria-hidden="true">18.3.</strong> Синтаксис шаблона</a></li></ol></li><li class="chapter-item expanded "><a href="ch19-00-advanced-features.html"><strong aria-hidden="true">19.</strong> Расширенные возможности</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch19-01-unsafe-rust.html"><strong aria-hidden="true">19.1.</strong> Небезопасный код в Rust</a></li><li class="chapter-item expanded "><a href="ch19-03-advanced-traits.html"><strong aria-hidden="true">19.2.</strong> Продвинутые типажи</a></li><li class="chapter-item expanded "><a href="ch19-04-advanced-types.html"><strong aria-hidden="true">19.3.</strong> Продвинутые типы</a></li><li class="chapter-item expanded "><a href="ch19-05-advanced-functions-and-closures.html"><strong aria-hidden="true">19.4.</strong> Продвинутые функции и замыкания</a></li><li class="chapter-item expanded "><a href="ch19-06-macros.html"><strong aria-hidden="true">19.5.</strong> Макросы</a></li></ol></li><li class="chapter-item expanded "><a href="ch20-00-final-project-a-web-server.html"><strong aria-hidden="true">20.</strong> Финальный проект: создание многопоточного веб-сервера</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch20-01-single-threaded.html"><strong aria-hidden="true">20.1.</strong> Создание однопоточного веб-сервера</a></li><li class="chapter-item expanded "><a href="ch20-02-multithreaded.html"><strong aria-hidden="true">20.2.</strong> Превращение нашего однопоточного сервера в многопоточный сервер</a></li><li class="chapter-item expanded "><a href="ch20-03-graceful-shutdown-and-cleanup.html"><strong aria-hidden="true">20.3.</strong> 	Мягкое завершение работы и очистка</a></li></ol></li><li class="chapter-item expanded "><a href="appendix-00.html"><strong aria-hidden="true">21.</strong> Приложения</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="appendix-01-keywords.html"><strong aria-hidden="true">21.1.</strong> А — Ключевые слова</a></li><li class="chapter-item expanded "><a href="appendix-02-operators.html"><strong aria-hidden="true">21.2.</strong> B — Операторы и символы</a></li><li class="chapter-item expanded "><a href="appendix-03-derivable-traits.html"><strong aria-hidden="true">21.3.</strong> C — Выводимые трейты</a></li><li class="chapter-item expanded "><a href="appendix-04-useful-development-tools.html"><strong aria-hidden="true">21.4.</strong> D — Полезные инструменты разработки</a></li><li class="chapter-item expanded "><a href="appendix-05-editions.html"><strong aria-hidden="true">21.5.</strong> E — Редакции</a></li><li class="chapter-item expanded "><a href="appendix-06-translation.html"><strong aria-hidden="true">21.6.</strong> F — Переводы книги</a></li><li class="chapter-item expanded "><a href="appendix-07-nightly-rust.html"><strong aria-hidden="true">21.7.</strong> G — Как создаётся Rust и «Nightly Rust»</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Язык программирования Rust</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="Использование-потоков-для-одновременного-выполнения-кода"><a class="header" href="#Использование-потоков-для-одновременного-выполнения-кода">Использование потоков для одновременного выполнения кода</a></h2>
+<p>В большинстве современных операционных систем программный код выполняется в виде <em>процесса</em>, причём операционная система способна управлять несколькими процессами сразу. Программа, в свою очередь, может состоять из нескольких независимых частей, выполняемых одновременно. Конструкция, благодаря которой эти независимые части выполняются, называется <em>потоком</em>. Например, веб-сервер может иметь несколько потоков для того, чтобы он мог обрабатывать больше одного запроса за раз.</p>
+<p>Разбиение вычислений на несколько потоков может повысить производительность программы, поскольку программа выполняет несколько задач одновременно, но такое разбиение также добавляет сложности. Поскольку потоки могут работать одновременно, нет чёткой гарантии, определяющей порядок выполнения частей вашего кода в разных потоках. Это может привести к таким проблемам, как:</p>
+<ul>
+<li>Состояния гонки, когда потоки обращаются к данным, либо ресурсам, несогласованно.</li>
+<li>Взаимные блокировки, когда два потока ожидают друг друга, не позволяя тем самым продолжить работу каждому из потоков.</li>
+<li>Ошибки, которые случаются только в определённых ситуациях, которые трудно воспроизвести и, соответственно, трудно надёжно исправить.</li>
+</ul>
+<p>Rust пытается смягчить негативные последствия использования потоков, но программирование в многопоточном контексте все ещё требует тщательного обдумывания структуры кода, которая отличается от структуры кода программ, работающих в одном потоке.</p>
+<p>Языки программирования реализуют потоки несколькими различными способами, и многие операционные системы предоставляют API, который язык может вызывать для создания новых потоков. Стандартная библиотека Rust использует модель реализации потоков <em>1:1</em>, при которой одному потоку операционной системы соответствует ровно один &quot;языковой&quot; поток. Существуют крейты, в которых реализованы другие модели многопоточности, отличающиеся от модели 1:1.</p>
+<h3 id="Создание-нового-потока-с-помощью--spawn"><a class="header" href="#Создание-нового-потока-с-помощью--spawn">Создание нового потока с помощью  <code>spawn</code></a></h3>
+<p>Чтобы создать новый поток, мы вызываем функцию <code>thread::spawn</code> и передаём ей замыкание (мы говорили о замыканиях в главе 13), содержащее код, который мы хотим запустить в новом потоке. Пример в листинге 16-1 печатает некоторый текст из основного потока, а также другой текст из нового потока:</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><pre class="playground"><code class="language-rust">use std::thread;
+use std::time::Duration;
+
+fn main() {
+    thread::spawn(|| {
+        for i in 1..10 {
+            println!(&quot;hi number {i} from the spawned thread!&quot;);
+            thread::sleep(Duration::from_millis(1));
+        }
+    });
+
+    for i in 1..5 {
+        println!(&quot;hi number {i} from the main thread!&quot;);
+        thread::sleep(Duration::from_millis(1));
+    }
+}
+</code></pre></pre>
+<p><span class="caption">Листинг 16-1: Создание нового потока для печати определённого текста, в то время как основной поток печатает что-то другое</span></p>
+<p>Обратите внимание, что когда основной поток программы на Rust завершается, все порождённые потоки закрываются, независимо от того, завершили они работу или нет. Вывод этой программы может каждый раз немного отличаться, но он будет выглядеть примерно так:</p>
+<!-- Not extracting output because changes to this output aren't significant;
+the changes are likely to be due to the threads running differently rather than
+changes in the compiler -->
+<pre><code class="language-text">hi number 1 from the main thread!
+hi number 1 from the spawned thread!
+hi number 2 from the main thread!
+hi number 2 from the spawned thread!
+hi number 3 from the main thread!
+hi number 3 from the spawned thread!
+hi number 4 from the main thread!
+hi number 4 from the spawned thread!
+hi number 5 from the spawned thread!
+</code></pre>
+<p>Вызовы <code>thread::sleep</code> заставляют поток на короткое время останавливать своё выполнение, позволяя выполняться другим потокам. Очерёдность выполнения потоков вероятно будет меняться, но это не гарантировано: это зависит от того, как ваша операционная система планирует потоки. В этом цикле основной поток печатает первым, несмотря на то, что инструкция печати из порождённого потока появляется раньше в коде. И даже несмотря на то, что мы проинструктировали порождённый поток печатать до тех пор, пока значение <code>i</code> не достигнет числа 9, оно успело дойти только до 5, когда основной поток завершился.</p>
+<p>Если вы запустите этот код и увидите вывод только из основного потока или не увидите печати из других потоков, попробуйте увеличить числа в диапазонах, чтобы дать операционной системе больше возможностей для переключения между потоками.</p>
+<h3 id="Ожидание-завершения-работы-всех-потоков-используя-join"><a class="header" href="#Ожидание-завершения-работы-всех-потоков-используя-join">Ожидание завершения работы всех потоков используя <code>join</code></a></h3>
+<p>Код в листинге 16-1 преждевременно останавливает порождённый поток в большинстве случаев, из-за завершения основного потока. Более того, так как порядок выполнения потоков чётко не определён, этот код не даёт гарантии, что порождённый поток вообще начнёт исполняться!</p>
+<p>Мы можем исправить проблему, когда созданный поток не запускается или завершается преждевременно, сохранив возвращаемое значение <code>thread::spawn</code> в какой-либо переменной. Тип возвращаемого значения <code>thread::spawn</code> — <code>JoinHandle</code> . <code>JoinHandle</code> — это владеющее значение, которое, при вызове метода <code>join</code> , будет ждать завершения своего потока. Листинг 16-2 демонстрирует, как использовать <code>JoinHandle</code> потока, созданного в листинге 16-1, и вызывать функцию <code>join</code> , для того, чтобы убедиться, что порождённый поток завершится раньше, чем поток <code>main</code>:</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><pre class="playground"><code class="language-rust">use std::thread;
+use std::time::Duration;
+
+fn main() {
+    let handle = thread::spawn(|| {
+        for i in 1..10 {
+            println!(&quot;hi number {i} from the spawned thread!&quot;);
+            thread::sleep(Duration::from_millis(1));
+        }
+    });
+
+    for i in 1..5 {
+        println!(&quot;hi number {i} from the main thread!&quot;);
+        thread::sleep(Duration::from_millis(1));
+    }
+
+    handle.join().unwrap();
+}
+</code></pre></pre>
+<p><span class="caption">Листинг 16-2. Сохранение значения <code>JoinHandle</code> потока <code>thread::spawn</code> , гарантирующее, что поток выполнит всю необходимую работу, перед тем, как завершится</span></p>
+<p>Вызов <code>join</code> у дескриптора блокирует текущий поток, пока поток, представленный дескриптором не завершится. <em>Блокировка</em> потока означает, что потоку запрещено выполнять работу или выходить из него. Поскольку мы поместили вызов <code>join</code> после цикла <code>for</code> основного потока, выполнение листинга 16-2 должно привести к выводу, подобному следующему:</p>
+<!-- Not extracting output because changes to this output aren't significant;
+the changes are likely to be due to the threads running differently rather than
+changes in the compiler -->
+<pre><code class="language-text">hi number 1 from the main thread!
+hi number 2 from the main thread!
+hi number 1 from the spawned thread!
+hi number 3 from the main thread!
+hi number 2 from the spawned thread!
+hi number 4 from the main thread!
+hi number 3 from the spawned thread!
+hi number 4 from the spawned thread!
+hi number 5 from the spawned thread!
+hi number 6 from the spawned thread!
+hi number 7 from the spawned thread!
+hi number 8 from the spawned thread!
+hi number 9 from the spawned thread!
+</code></pre>
+<p>Два потока продолжают чередоваться, но основной поток находится в ожидании из-за вызова <code>handle.join()</code> и не завершается до тех пор, пока не завершится запущенный поток.</p>
+<p>Но давайте посмотрим, что произойдёт, если мы вместо этого переместим <code>handle.join()</code> перед циклом <code>for</code> в <code>main</code>, например так:</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><pre class="playground"><code class="language-rust">use std::thread;
+use std::time::Duration;
+
+fn main() {
+    let handle = thread::spawn(|| {
+        for i in 1..10 {
+            println!(&quot;hi number {i} from the spawned thread!&quot;);
+            thread::sleep(Duration::from_millis(1));
+        }
+    });
+
+    handle.join().unwrap();
+
+    for i in 1..5 {
+        println!(&quot;hi number {i} from the main thread!&quot;);
+        thread::sleep(Duration::from_millis(1));
+    }
+}
+</code></pre></pre>
+<p>Основной поток будет ждать завершения порождённого потока, а затем запустит свой цикл <code>for</code> , поэтому выходные данные больше не будут чередоваться, как показано ниже:</p>
+<!-- Not extracting output because changes to this output aren't significant;
+the changes are likely to be due to the threads running differently rather than
+changes in the compiler -->
+<pre><code class="language-text">hi number 1 from the spawned thread!
+hi number 2 from the spawned thread!
+hi number 3 from the spawned thread!
+hi number 4 from the spawned thread!
+hi number 5 from the spawned thread!
+hi number 6 from the spawned thread!
+hi number 7 from the spawned thread!
+hi number 8 from the spawned thread!
+hi number 9 from the spawned thread!
+hi number 1 from the main thread!
+hi number 2 from the main thread!
+hi number 3 from the main thread!
+hi number 4 from the main thread!
+</code></pre>
+<p>Небольшие детали, такие как место вызова <code>join</code>, могут повлиять на то, выполняются ли ваши потоки одновременно.</p>
+<h3 id="Использование-move-замыканий-в-потоках"><a class="header" href="#Использование-move-замыканий-в-потоках">Использование <code>move</code>-замыканий в потоках</a></h3>
+<p>Мы часто используем ключевое слово <code>move</code> с замыканиями, переданными в <code>thread::spawn</code>, потому что в этом случае замыкание получает из окружения права владения на используемые им значения, таким образом передавая права владения этими значениями от одного потока к другому. В разделе <a href="ch13-01-closures.html#capturing-references-or-moving-ownership">&quot;Захват ссылок или перемещение прав владения&quot;</a> главы 13 мы обсудили <code>move</code> в контексте замыканий. Теперь мы сосредоточимся на взаимодействии между <code>move</code> и <code>thread::spawn</code>.</p>
+<p>Обратите внимание, что в листинге 16-1 замыкание, которое мы передаём в <code>thread::spawn</code> не принимает аргументов: мы не используем никаких данных из основного потока в коде порождённого потока. Чтобы использовать данные из основного потока в порождённом потоке, замыкание порождённого потока должно захватывать значения, которые ему необходимы. Листинг 16-3 показывает попытку создать вектор в главном потоке и использовать его в порождённом потоке. Тем не менее, это не будет работать, как вы увидите через мгновение.</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><code class="language-rust ignore does_not_compile">use std::thread;
+
+fn main() {
+    let v = vec![1, 2, 3];
+
+    let handle = thread::spawn(|| {
+        println!(&quot;Here's a vector: {v:?}&quot;);
+    });
+
+    handle.join().unwrap();
+}
+</code></pre>
+<p><span class="caption">Листинг 16-3: Попытка использовать вектор, созданный основным потоком, в другом потоке</span></p>
+<p>Замыкание использует переменную <code>v</code>, поэтому оно захватит <code>v</code> и сделает его частью окружения замыкания. Поскольку <code>thread::spawn</code> запускает это замыкание в новом потоке, мы должны иметь доступ к <code>v</code> внутри этого нового потока. Но при компиляции этого примера, мы получаем следующую ошибку:</p>
+<pre><code class="language-console">$ cargo run
+   Compiling threads v0.1.0 (file:///projects/threads)
+error[E0373]: closure may outlive the current function, but it borrows `v`, which is owned by the current function
+ --&gt; src/main.rs:6:32
+  |
+6 |     let handle = thread::spawn(|| {
+  |                                ^^ may outlive borrowed value `v`
+7 |         println!(&quot;Here's a vector: {v:?}&quot;);
+  |                                     - `v` is borrowed here
+  |
+note: function requires argument type to outlive `'static`
+ --&gt; src/main.rs:6:18
+  |
+6 |       let handle = thread::spawn(|| {
+  |  __________________^
+7 | |         println!(&quot;Here's a vector: {v:?}&quot;);
+8 | |     });
+  | |______^
+help: to force the closure to take ownership of `v` (and any other referenced variables), use the `move` keyword
+  |
+6 |     let handle = thread::spawn(move || {
+  |                                ++++
+
+For more information about this error, try `rustc --explain E0373`.
+error: could not compile `threads` (bin &quot;threads&quot;) due to 1 previous error
+</code></pre>
+<p>Rust <em>выводит</em> как захватить <code>v</code> и так как в <code>println!</code> нужна только ссылка на <code>v</code>, то замыкание пытается заимствовать <code>v</code>. Однако есть проблема: Rust не может определить, как долго будет работать порождённый поток, поэтому он не знает, будет ли всегда действительной ссылка на <code>v</code>.</p>
+<p>В листинге 16-4 приведён сценарий, который с большей вероятностью будет иметь ссылку на <code>v</code>, что будет недопустимо:</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><code class="language-rust ignore does_not_compile">use std::thread;
+
+fn main() {
+    let v = vec![1, 2, 3];
+
+    let handle = thread::spawn(|| {
+        println!(&quot;Here's a vector: {v:?}&quot;);
+    });
+
+    drop(v); // oh no!
+
+    handle.join().unwrap();
+}
+</code></pre>
+<p><span class="caption">Листинг 16-4. Поток с замыканием, который пытается захватить ссылку на <code>v</code> из основного потока, удаляющего <code>v</code></span></p>
+<p>Если бы Rust позволил нам запустить этот код, есть вероятность, что порождённый поток был бы немедленно переведён в фоновый режим, не выполнив ничего. Порождённый поток имеет ссылку на <code>v</code>, но основной поток немедленно удаляет <code>v</code> , используя функцию <code>drop</code> , которую мы обсуждали в главе 15. Затем, когда порождённый поток начинает выполняться, <code>v</code> уже не существует, поэтому ссылка на него также будет недействительной. О, нет!</p>
+<p>Чтобы исправить ошибку компилятора в листинге 16-3, мы можем использовать совет из сообщения об ошибке:</p>
+<!-- manual-regeneration
+after automatic regeneration, look at listings/ch16-fearless-concurrency/listing-16-03/output.txt and copy the relevant part
+-->
+<pre><code class="language-text">help: to force the closure to take ownership of `v` (and any other referenced variables), use the `move` keyword
+  |
+6 |     let handle = thread::spawn(move || {
+  |                                ++++
+</code></pre>
+<p>Добавляя ключевое слово <code>move</code> перед замыканием, мы заставляем замыкание забирать используемые значения во владение, вместо того, чтобы позволить Rust вывести необходимость заимствования значения. Модификация Листинга 16-3, показанная в Листинге 16-5, будет скомпилирована и запущена так, как мы ожидаем:</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><pre class="playground"><code class="language-rust">use std::thread;
+
+fn main() {
+    let v = vec![1, 2, 3];
+
+    let handle = thread::spawn(move || {
+        println!(&quot;Here's a vector: {v:?}&quot;);
+    });
+
+    handle.join().unwrap();
+}
+</code></pre></pre>
+<p><span class="caption">Листинг 16-5. Использование ключевого слова <code>move</code> , чтобы замыкание стало владельцем используемых им значений.</span></p>
+<p>У нас может возникнуть соблазн попробовать то же самое, чтобы исправить код в листинге 16.4, где основной поток вызывал <code>drop</code> с помощью замыкания <code>move</code> . Однако это исправление не сработает, потому что то, что пытается сделать листинг 16.4, запрещено по другой причине. Если мы добавим <code>move</code> к замыканию, мы переместим <code>v</code> в окружение замыкания и больше не сможем вызывать для него <code>drop</code> в основном потоке. Вместо этого мы получим эту ошибку компилятора:</p>
+<pre><code class="language-console">$ cargo run
+   Compiling threads v0.1.0 (file:///projects/threads)
+error[E0382]: use of moved value: `v`
+  --&gt; src/main.rs:10:10
+   |
+4  |     let v = vec![1, 2, 3];
+   |         - move occurs because `v` has type `Vec&lt;i32&gt;`, which does not implement the `Copy` trait
+5  |
+6  |     let handle = thread::spawn(move || {
+   |                                ------- value moved into closure here
+7  |         println!(&quot;Here's a vector: {v:?}&quot;);
+   |                                     - variable moved due to use in closure
+...
+10 |     drop(v); // oh no!
+   |          ^ value used here after move
+
+For more information about this error, try `rustc --explain E0382`.
+error: could not compile `threads` (bin &quot;threads&quot;) due to 1 previous error
+</code></pre>
+<p>Правила владения Rust снова нас спасли! Мы получили ошибку кода из листинга 16-3, потому что Rust был консервативен и заимствовал <code>v</code> только для потока, что означало, что основной поток теоретически может сделать недействительной ссылку на порождённый поток. Сообщив Rust о передаче владения <code>v</code> в порождаемый поток, мы гарантируем Rust, что основной поток больше не будет использовать <code>v</code>. Если мы изменим Листинг 16-4 таким же образом, то мы нарушаем правила владения при попытке использовать <code>v</code> в главном потоке. Ключевое слово <code>move</code> отменяет основное консервативное поведение Rust по заимствованию, что не позволяет нам нарушать правила владения.</p>
+<p>Имея базовое понимание потоков и API потоков, давайте посмотрим, что мы можем <em>делать</em> с помощью потоков.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="ch16-00-concurrency.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="ch16-02-message-passing.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="ch16-00-concurrency.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="ch16-02-message-passing.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
         </div>
 
-		<div class="clearfix"></div><br /><br />
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
-
-        <footer>
-            <div class="row">
-                <div class="col-sm-4">
-					<h4>Каталог товаров</h4>
-					<ul class="menu">
-						<li><a href="/category/573/">Книги</a></li><li><a href="/category/548/">Канцтовары</a></li><li><a href="/category/4654/">Товары для творчества</a></li><li><a href="/category/4494/">Развивающие игры и игрушки</a></li><li><a href="/category/5785/">Настольные игры</a></li><li><a href="/category/4557/">Пазлы</a></li><li><a href="/category/4444/">Товары для коллекционеров</a></li><li><a href="/category/347/">Настенные карты</a></li><li><a href="/category/592/">Календари</a></li><li><a href="/category/4551/">Товары для праздников</a></li>					</ul>
-				</div>
-
-				<div class="col-sm-4">
-					<h4>Покупателям</h4>
-					<ul class="menu">
-						<li><a href="/news/">Новости</a></li>
-						<li><a href="/info/delivery/">Доставка</a></li>
-						<li><a href="/info/payment.php">Оплата</a></li>
-						<li><a href="/faq/">Часто задаваемые вопросы</a></li>
-						<li><a href="/order/terms_of_return.php">Условия возврата</a></li>
-						<li><a href="/info/discount_card.php">Бонусная программа</a></li>
-						<li><a href="/info/discount.php">Скидки</a></li>
-						<li><a href="/sale/">Акции</a></li>
-						<li><a href="/info/giftcard.php">Подарочные карты</a></li>
-						<li><a href="/info/opt.php">Оптовый отдел</a></li>
-						<li><a href="/order/terms_of_service.php">Пользовательское соглашение</a></li>
-						<li><a href="/order/terms_of_private_data.php">Политика компании в отношении<br> обработки персональных данных</a></li>
-					</ul>
-                </div>
-
-                <div class="col-sm-4">
-					<h6><a data-toggle="modal" data-target="#user_er_mess" class="cur"
-						onclick="if(!$('#feedback_frame').prop('src')){$('#feedback_frame').prop('src', $('#feedback_frame').data('src'))}">
-							Сообщить об ошибке,<br>предложить улучшение</a></h6>
-					<br>
-					<h4><a href="/competition/">Конкурсы</a></h4>
-					<br>
-					<h4><a href="/info/about.php">О компании</a></h4>
-					<ul class="menu">
-						<li><a href="/info/shops.php">Наши магазины</a></li>
-						<!--<li><a href="/info/about.php">История фирмы</a></li>-->
-						<li><a href="/info/vacancy.php">Вакансии</a></li>
-						<li><a href="/info/contacts.php">Контакты</a></li>
-						<li><a href="https://vk.com/chaconne63" target="_blank">
-							<span class="fa-stack">
-								<i class="fa fa-square fa-stack-2x" style="color:#375474"></i>
-								<i class="fa fa-vk fa-stack-1x fa-inverse"></i>
-							</span>
-							Новостная группа</a></li>
-					</ul>
-					<br>
-					<h4>Консультант по заказам<br> интернет-магазина:</h4>
-					<ul class="list-unstyled">
-						<li style="padding-bottom: 9px">
-							<a href="viber://chat?number=+79170121747" class="unstyled">
-							<img src="/i/viber.svg" width="22" />
-							viber +7-917-012-17-47</a>
-						</li>
-											</ul>
-
-					<br>
-
-					<h4 class="visible-xs">Телефоны:</h4>
-					<ul class="visible-xs list-unstyled cards">
-						<li style="padding-bottom: 9px">
-							<a class="unstyled" href="tel:+7 (846) 331-22-33">
-							<img src="/i/phone.svg" width="16" height="16" />
-							+7 (846) 331-22-33</a> Самара
-							<br class="visible-xs" />с 10:00 до 20:30
-						</li>
-						<li>
-							<a class="unstyled" href="tel:+7 (8482) 55-55-88">
-							<img src="/i/phone.svg" width="16" height="16" />
-							+7 (8482) 55-55-88</a> Тольятти
-							<br class="visible-xs" />с 10:00 до 20:00
-						</li>
-					</ul>
-                </div>
-            </div><!-- .row -->
-
-			<blockquote class="small">
-				В ассортименте могут встречаться товары с символикой соцсетей Facebook и Instagram, правомерно введенные в гражданский оборот до признания экстремистской организации Meta Platforms Inc, продуктами которой они являются. Приобретение и использование этих товаров не нарушает действующее законодательство.
-			</blockquote>
-
-            <div class="text">
-                <p>© 1994-2025 Интернет-магазин "Чакона": купить книги в Самаре, Тольятти, Новокуйбышевске и Сызрани.</p>
-            </div>
-        </footer>
-
-    </div>
-
-	<div id="scrolltop-btn" title="Наверх" class="hidden-xs hide" onclick="$('html, body').animate({scrollTop:0},500)">&#8593;</div>
-
-
-	<div style="visibility:hidden;position:absolute;left:-100%" id="catalog_menu_init_container">
-	<div id="catalog_menu" class="catalog_menu">
-		<ul class="menu start" id="menucat0"><li>
-	<a class="gtm_menu_catalog cat573 next " data-id="573" href="javascript:">
-		Книги			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat548 next " data-id="548" href="javascript:">
-		Канцтовары			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4654 next " data-id="4654" href="javascript:">
-		Товары для творчества			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4494 next " data-id="4494" href="javascript:">
-		Развивающие игры и игрушки			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat5785 next " data-id="5785" href="javascript:">
-		Настольные игры			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4557 next " data-id="4557" href="javascript:">
-		Пазлы			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4444 next " data-id="4444" href="javascript:">
-		Товары для коллекционеров			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat347 end " data-id="347" href="/category/347/">
-		Настенные карты			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat592 next " data-id="592" href="javascript:">
-		Календари			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4551 next " data-id="4551" href="javascript:">
-		Товары для праздников			</a>
-</li></ul>	</div>
-</div>
-
-<script>
-var catalogMenuPath = [0], catalogMenuHeight,
-	listId = 0;
-
-
-/*------------------------------------------------------------------------------------------*/
-
-$('#catalog_menu').on('click', 'a.next', function() {
-	var _this = $(this),
-		id = _this.data('id'),
-		_id = '#menucat'+id.toString(10).replace('.','\\.'),
-		m = $(_id),
-		_show = function() {
-			catalogMenuHeight = m.height()-2/*border*/;
-			$('#catalog_menu').height(catalogMenuHeight);
-			m.css({left:0});
-			if (m.offset().top < $(window).scrollTop()) {
-				$('html,body').animate({scrollTop:m.offset().top}, 500);
-			}
-		};
-
-	catalogMenuPath.push(id);
-
-	if (!m.length) {
-		_this.addClass('wait');
-		$.get('/ajax/catalog_menu.php', {id:id, list:listId}, function(res) {
-			$('#catalog_menu').append(res);
-			m = $(_id);
-			_show();
-			_this.removeClass('wait');
-		}, 'html');
-	}
-	else {
-		_show();
-	}
-});
-
-/*------------------------------------------------------------------------------------------*/
-
-$('#catalog_menu').on('click', 'a.prev', function () {
-	var _this = $(this),
-		m = $(this).closest('.menu'),
-		id = catalogMenuPath[catalogMenuPath.length - 2],
-		_id = '#menucat'+id.toString(10).replace('.','\\.'),
-		_show = function() {
-			catalogMenuHeight = $(_id).height()-2/*border*/;
-			$('#catalog_menu').height(catalogMenuHeight);
-			m.css({left:'100%'});
-		};
-
-	catalogMenuPath.pop();
-
-	if (!$(_id).length) {
-		_this.addClass('wait');
-		$.get('/ajax/catalog_menu.php', {id:id, list:listId}, function(res) {
-			$('#catalog_menu').prepend(res);
-			$(_id).css({left:0});
-			_show();
-			_this.removeClass('wait');
-		}, 'html');
-	}
-	else {
-		_show();
-	}
-});
-
-/*------------------------------------------------------------------------------------------*/
-
-$('#catalog_menu_mob_btn').click(function() {
-	if ($(this).hasClass('active')) {
-		$('#catalog_menu_xs').css({height: catalogMenuHeight+15/*margin*/});
-		setTimeout(function() { // wait animation
-			$('#catalog_menu_xs').css({height: 'auto'});
-		}, 500);
-	}
-	else {
-		$('#catalog_menu_xs').height(catalogMenuHeight);
-		$('#catalog_menu_xs').height(0);
-	}
-
-});
-</script>
-	<div id="user_er_mess" class="modal fade">
-	<div class="modal-dialog">
-		<div class="modal-content">
-
-	<div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Сообщение</h4>
-	</div>
-
-	<div class="modal-body">
-		<iframe id="feedback_frame" data-src="/feedback_form.php"
-			width="100%" height="430" frameborder="0"></iframe>
-	</div>
-
-		</div>
-	</div>
-</div>
-
-	<div class="alert alert-warning" id="defer-not-reg-notice" style="display:none;position:absolute;width:200px;z-index:1000">
-		Пожалуйста, <a href="/enter.php">войдите</a> или <a href="/reg/">зарегистрируйтесь</a>,
-		чтобы мы могли сохранить Ваш список.
-	</div>
-
-	<script src="/js/last.js?31"></script>
-
-	
-	
-</body>
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="ferris.js"></script>
+    </body>
 </html>
-<!-- render time: 0,41 sec -->

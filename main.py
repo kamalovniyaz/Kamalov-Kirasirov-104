@@ -1,11 +1,11 @@
 import os
-import re
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
-visited_urls = set()  # Все посещенные страницы для убирания дублей
+# Список посещенных URL, чтобы избежать дублирования
+visited_urls = set()
 
 
 def fetch_page(url: str) -> str | None:
@@ -15,15 +15,21 @@ def fetch_page(url: str) -> str | None:
         if response.status_code == 200:
             return response.text
         else:
+            print(f"Failed to retrieve {url}. Status code: {response.status_code}")
             return None
     except Exception as e:
+        print(f"Error fetching {url}: {e}")
         return None
 
 
 def save_to_file(content: str, filename: str) -> None:
     """Сохранение контента в файл."""
+    try:
+        fixed_content = content.encode('latin1').decode('utf-8', errors='replace')
+    except UnicodeEncodeError:
+        fixed_content = content
     with open(filename, 'w', encoding='utf-8') as file:
-        file.write(content)
+        file.write(fixed_content)
 
 
 def create_index_file(index_data: list[tuple], filename: str = 'index.txt') -> None:
@@ -33,13 +39,12 @@ def create_index_file(index_data: list[tuple], filename: str = 'index.txt') -> N
             file.write(f"{idx} {url}\n")
 
 
-def crawl(start_url: str, max_pages: int = 120) -> None:
+def crawl(base_url: str, max_pages: int = 120) -> None:
     """Краулер для сбора страниц и рекурсивного обхода всех найденных ссылок."""
-    urls_to_visit = [start_url]  # Очередь ссылок для обхода
+    urls_to_visit = [base_url]  # Очередь ссылок для обхода
     index_data = []
 
-    # Регулярное выражение для фильтрации ссылок
-    product_pattern = re.compile(r'https:\/\/chaconne\.ru\/product\/\d+\/')
+    os.makedirs('dumps', exist_ok=True)  # Создаем папку dumps, если её нет
 
     while urls_to_visit and len(visited_urls) < max_pages:
         url = urls_to_visit.pop(0)  # Берем первую ссылку из очереди
@@ -51,7 +56,8 @@ def crawl(start_url: str, max_pages: int = 120) -> None:
             continue
 
         page_number = len(visited_urls) + 1
-        print(page_number)
+        print(f"Crawling: {url} (Page {page_number})")
+
         filename = f'dump_{page_number}.txt'
         filepath = os.path.join('dumps', filename)
         save_to_file(content, filepath)
@@ -60,18 +66,18 @@ def crawl(start_url: str, max_pages: int = 120) -> None:
 
         soup = BeautifulSoup(content, 'html.parser')
         # Ищем все ссылки на текущей странице
-        for link in soup.find_all('a', href=True):
-            new_url = link['href']
-            full_url = urljoin(start_url, new_url)  #
+        sidebar = soup.find('div', class_='sidebar-scrollbox')
+        for link in sidebar.find_all('a', href=True):
+            relative_path = link['href']
+            full_url = urljoin(base_url, f'/book/{relative_path}')  # Преобразуем в абсолютный URL
+
             # Проверяем, что ссылка ведет на тот же домен и еще не была посещена
-            if full_url.startswith(start_url) and full_url not in visited_urls and full_url not in urls_to_visit:
-                # Фильтруем ссылки по шаблону /product/{id}/
-                if product_pattern.match(full_url):
-                    urls_to_visit.append(full_url) # Добавляем следующую ссылку для обхода в список
+            if full_url.startswith(base_url) and full_url not in visited_urls and full_url not in urls_to_visit:
+                urls_to_visit.append(full_url)  # Добавляем следующую ссылку для обхода в список
 
     create_index_file(index_data)
 
 
 if __name__ == "__main__":
-    start_url = 'https://chaconne.ru'  # основная страница
-    crawl(start_url, max_pages=120)
+    base_url = 'https://doc.rust-lang.ru/book'  # основная страница
+    crawl(base_url, max_pages=120)

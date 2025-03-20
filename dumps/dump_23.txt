@@ -1,1101 +1,403 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-	<meta charset="windows-1251">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Книга Если все кошки в мире исчезнут (Кавамура Г., бомбора, ISBN 978-5-04-207739-5) - купить в магазине Чакона</title>
-	<meta name="description" content="Заказать книгу Если все кошки в мире исчезнут (Кавамура Г., бомбора, 2025) по цене 617&#8381;  с доставкой по всей России в интернет-магазине Чакона. Читайте отзывы и рецензии на сайте." />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!DOCTYPE HTML>
+<html lang="ru-RU" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Синтаксис метода - Язык программирования Rust</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="ferris.css">
+        <link rel="stylesheet" href="theme/2018-edition.css">
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="title-page.html">Язык программирования Rust</a></li><li class="chapter-item expanded affix "><a href="foreword.html">Предисловие</a></li><li class="chapter-item expanded affix "><a href="ch00-00-introduction.html">Введение</a></li><li class="chapter-item expanded "><a href="ch01-00-getting-started.html"><strong aria-hidden="true">1.</strong> С чего начать</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch01-01-installation.html"><strong aria-hidden="true">1.1.</strong> Установка</a></li><li class="chapter-item expanded "><a href="ch01-02-hello-world.html"><strong aria-hidden="true">1.2.</strong> Привет, Мир!</a></li><li class="chapter-item expanded "><a href="ch01-03-hello-cargo.html"><strong aria-hidden="true">1.3.</strong> Hello, Cargo!</a></li></ol></li><li class="chapter-item expanded "><a href="ch02-00-guessing-game-tutorial.html"><strong aria-hidden="true">2.</strong> Программирование игры в загадки</a></li><li class="chapter-item expanded "><a href="ch03-00-common-programming-concepts.html"><strong aria-hidden="true">3.</strong> Общие концепции программирования</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch03-01-variables-and-mutability.html"><strong aria-hidden="true">3.1.</strong> Переменные и изменяемость</a></li><li class="chapter-item expanded "><a href="ch03-02-data-types.html"><strong aria-hidden="true">3.2.</strong> Типы Данных</a></li><li class="chapter-item expanded "><a href="ch03-03-how-functions-work.html"><strong aria-hidden="true">3.3.</strong> Функции</a></li><li class="chapter-item expanded "><a href="ch03-04-comments.html"><strong aria-hidden="true">3.4.</strong> Комментарии</a></li><li class="chapter-item expanded "><a href="ch03-05-control-flow.html"><strong aria-hidden="true">3.5.</strong> Управляющие конструкции</a></li></ol></li><li class="chapter-item expanded "><a href="ch04-00-understanding-ownership.html"><strong aria-hidden="true">4.</strong> Понимание владения</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch04-01-what-is-ownership.html"><strong aria-hidden="true">4.1.</strong> Что такое "владение"?</a></li><li class="chapter-item expanded "><a href="ch04-02-references-and-borrowing.html"><strong aria-hidden="true">4.2.</strong> Ссылки и заимствование</a></li><li class="chapter-item expanded "><a href="ch04-03-slices.html"><strong aria-hidden="true">4.3.</strong> Тип среза</a></li></ol></li><li class="chapter-item expanded "><a href="ch05-00-structs.html"><strong aria-hidden="true">5.</strong> Использование структур для объединения связанных данных</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch05-01-defining-structs.html"><strong aria-hidden="true">5.1.</strong> Определение и создание экземпляров структур</a></li><li class="chapter-item expanded "><a href="ch05-02-example-structs.html"><strong aria-hidden="true">5.2.</strong> Пример программы, использующей структуры</a></li><li class="chapter-item expanded "><a href="ch05-03-method-syntax.html" class="active"><strong aria-hidden="true">5.3.</strong> Синтаксис метода</a></li></ol></li><li class="chapter-item expanded "><a href="ch06-00-enums.html"><strong aria-hidden="true">6.</strong> Перечисления и сопоставление с образцом</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch06-01-defining-an-enum.html"><strong aria-hidden="true">6.1.</strong> Определение Enum</a></li><li class="chapter-item expanded "><a href="ch06-02-match.html"><strong aria-hidden="true">6.2.</strong> Конструкция потока управления match</a></li><li class="chapter-item expanded "><a href="ch06-03-if-let.html"><strong aria-hidden="true">6.3.</strong> Лаконичный поток управления с if let</a></li></ol></li><li class="chapter-item expanded "><a href="ch07-00-managing-growing-projects-with-packages-crates-and-modules.html"><strong aria-hidden="true">7.</strong> Управление растущими проектами с помощью пакетов, крейтов и модулей</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch07-01-packages-and-crates.html"><strong aria-hidden="true">7.1.</strong> Пакеты и крейты</a></li><li class="chapter-item expanded "><a href="ch07-02-defining-modules-to-control-scope-and-privacy.html"><strong aria-hidden="true">7.2.</strong> Определение модулей для управления областью действия и конфиденциальностью</a></li><li class="chapter-item expanded "><a href="ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html"><strong aria-hidden="true">7.3.</strong> Пути для ссылки на элемент в дереве модулей</a></li><li class="chapter-item expanded "><a href="ch07-04-bringing-paths-into-scope-with-the-use-keyword.html"><strong aria-hidden="true">7.4.</strong> Введение путей в область видимости с помощью ключевого слова use</a></li><li class="chapter-item expanded "><a href="ch07-05-separating-modules-into-different-files.html"><strong aria-hidden="true">7.5.</strong> Separating Modules into Different Files</a></li></ol></li><li class="chapter-item expanded "><a href="ch08-00-common-collections.html"><strong aria-hidden="true">8.</strong> Общие коллекции</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch08-01-vectors.html"><strong aria-hidden="true">8.1.</strong> Хранение списков значений с векторами</a></li><li class="chapter-item expanded "><a href="ch08-02-strings.html"><strong aria-hidden="true">8.2.</strong> Хранение закодированного текста UTF-8 со строками</a></li><li class="chapter-item expanded "><a href="ch08-03-hash-maps.html"><strong aria-hidden="true">8.3.</strong> Хранение ключей со связанными значениями в HashMap</a></li></ol></li><li class="chapter-item expanded "><a href="ch09-00-error-handling.html"><strong aria-hidden="true">9.</strong> Обработка ошибок</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch09-01-unrecoverable-errors-with-panic.html"><strong aria-hidden="true">9.1.</strong> Неустранимые ошибки с panic!</a></li><li class="chapter-item expanded "><a href="ch09-02-recoverable-errors-with-result.html"><strong aria-hidden="true">9.2.</strong> Устранимые ошибки с Result</a></li><li class="chapter-item expanded "><a href="ch09-03-to-panic-or-not-to-panic.html"><strong aria-hidden="true">9.3.</strong> panic! или Не panic!</a></li></ol></li><li class="chapter-item expanded "><a href="ch10-00-generics.html"><strong aria-hidden="true">10.</strong> Общие типы, трейты (характеристики) и время жизни</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch10-01-syntax.html"><strong aria-hidden="true">10.1.</strong> Обобщённые типы данных</a></li><li class="chapter-item expanded "><a href="ch10-02-traits.html"><strong aria-hidden="true">10.2.</strong> Трейты (характеристики): определение разделяемого поведения</a></li><li class="chapter-item expanded "><a href="ch10-03-lifetime-syntax.html"><strong aria-hidden="true">10.3.</strong> Валидация ссылок посредством сроков жизни</a></li></ol></li><li class="chapter-item expanded "><a href="ch11-00-testing.html"><strong aria-hidden="true">11.</strong> Написание автоматических тестов</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch11-01-writing-tests.html"><strong aria-hidden="true">11.1.</strong> Как писать тесты</a></li><li class="chapter-item expanded "><a href="ch11-02-running-tests.html"><strong aria-hidden="true">11.2.</strong> Управление выполнением тестов</a></li><li class="chapter-item expanded "><a href="ch11-03-test-organization.html"><strong aria-hidden="true">11.3.</strong> Организация тестов</a></li></ol></li><li class="chapter-item expanded "><a href="ch12-00-an-io-project.html"><strong aria-hidden="true">12.</strong> Проект с вводом-выводом: создание программы командной строки</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch12-01-accepting-command-line-arguments.html"><strong aria-hidden="true">12.1.</strong> Получение аргументов командной строки</a></li><li class="chapter-item expanded "><a href="ch12-02-reading-a-file.html"><strong aria-hidden="true">12.2.</strong> Чтение файла</a></li><li class="chapter-item expanded "><a href="ch12-03-improving-error-handling-and-modularity.html"><strong aria-hidden="true">12.3.</strong> Рефакторинг для обеспечения модульности и улучшения обработки ошибок</a></li><li class="chapter-item expanded "><a href="ch12-04-testing-the-librarys-functionality.html"><strong aria-hidden="true">12.4.</strong> Разработка функциональности библиотеки с помощью разработки через тестирование</a></li><li class="chapter-item expanded "><a href="ch12-05-working-with-environment-variables.html"><strong aria-hidden="true">12.5.</strong> Работа с переменными среды</a></li><li class="chapter-item expanded "><a href="ch12-06-writing-to-stderr-instead-of-stdout.html"><strong aria-hidden="true">12.6.</strong> Запись сообщений об ошибках в stderr вместо stdout</a></li></ol></li><li class="chapter-item expanded "><a href="ch13-00-functional-features.html"><strong aria-hidden="true">13.</strong> Функциональные возможности языка: итераторы и замыкания</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch13-01-closures.html"><strong aria-hidden="true">13.1.</strong> Замыкания: анонимные функции, которые захватывают своё окружение</a></li><li class="chapter-item expanded "><a href="ch13-02-iterators.html"><strong aria-hidden="true">13.2.</strong> Обработка последовательности элементов с помощью итераторов</a></li><li class="chapter-item expanded "><a href="ch13-03-improving-our-io-project.html"><strong aria-hidden="true">13.3.</strong> Улучшение нашего проекта с вводом/выводом</a></li><li class="chapter-item expanded "><a href="ch13-04-performance.html"><strong aria-hidden="true">13.4.</strong> Сравнение производительности: циклы и итераторы</a></li></ol></li><li class="chapter-item expanded "><a href="ch14-00-more-about-cargo.html"><strong aria-hidden="true">14.</strong> Подробнее о Cargo и Crates.io</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch14-01-release-profiles.html"><strong aria-hidden="true">14.1.</strong> Настройка билдов с помощью профилей выпуска</a></li><li class="chapter-item expanded "><a href="ch14-02-publishing-to-crates-io.html"><strong aria-hidden="true">14.2.</strong> Публикация крейта на Crates.io</a></li><li class="chapter-item expanded "><a href="ch14-03-cargo-workspaces.html"><strong aria-hidden="true">14.3.</strong> Рабочие области Cargo</a></li><li class="chapter-item expanded "><a href="ch14-04-installing-binaries.html"><strong aria-hidden="true">14.4.</strong> Установка бинарных файлов с Crates.io с помощью cargo install</a></li><li class="chapter-item expanded "><a href="ch14-05-extending-cargo.html"><strong aria-hidden="true">14.5.</strong> Расширение возможностей Cargo путём добавления пользовательских команд</a></li></ol></li><li class="chapter-item expanded "><a href="ch15-00-smart-pointers.html"><strong aria-hidden="true">15.</strong> Умные указатели</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch15-01-box.html"><strong aria-hidden="true">15.1.</strong> Использование Box&lt;T&gt; для указания на данные в куче</a></li><li class="chapter-item expanded "><a href="ch15-02-deref.html"><strong aria-hidden="true">15.2.</strong> Работа с умными указателями как с обычными ссылками с помощью трейта Deref</a></li><li class="chapter-item expanded "><a href="ch15-03-drop.html"><strong aria-hidden="true">15.3.</strong> Выполнение кода при очистке с помощью трейта Drop</a></li><li class="chapter-item expanded "><a href="ch15-04-rc.html"><strong aria-hidden="true">15.4.</strong> Rc&lt;T&gt;, умный указатель с подсчётом ссылок</a></li><li class="chapter-item expanded "><a href="ch15-05-interior-mutability.html"><strong aria-hidden="true">15.5.</strong> RefCell&lt;T&gt; и внутренняя изменяемость</a></li><li class="chapter-item expanded "><a href="ch15-06-reference-cycles.html"><strong aria-hidden="true">15.6.</strong> Ссылочные циклы могут привести к утечке памяти</a></li></ol></li><li class="chapter-item expanded "><a href="ch16-00-concurrency.html"><strong aria-hidden="true">16.</strong> Безбоязненный параллелизм</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch16-01-threads.html"><strong aria-hidden="true">16.1.</strong> Использование потоков для параллельного выполнения кода</a></li><li class="chapter-item expanded "><a href="ch16-02-message-passing.html"><strong aria-hidden="true">16.2.</strong> Пересылка сообщений для передачи данных между потоками</a></li><li class="chapter-item expanded "><a href="ch16-03-shared-state.html"><strong aria-hidden="true">16.3.</strong> Параллелизм с общим состоянием</a></li><li class="chapter-item expanded "><a href="ch16-04-extensible-concurrency-sync-and-send.html"><strong aria-hidden="true">16.4.</strong> Расширяемый параллелизм с помощью трейтов Sync и Send</a></li></ol></li><li class="chapter-item expanded "><a href="ch17-00-oop.html"><strong aria-hidden="true">17.</strong> Возможности объектно-ориентированного программирования Rust</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch17-01-what-is-oo.html"><strong aria-hidden="true">17.1.</strong> Характеристики объектно-ориентированных языков</a></li><li class="chapter-item expanded "><a href="ch17-02-trait-objects.html"><strong aria-hidden="true">17.2.</strong> Использование трейт-объектов, допускающих значения разных типов</a></li><li class="chapter-item expanded "><a href="ch17-03-oo-design-patterns.html"><strong aria-hidden="true">17.3.</strong> Реализация шаблона объектно-ориентированного проектирования</a></li></ol></li><li class="chapter-item expanded "><a href="ch18-00-patterns.html"><strong aria-hidden="true">18.</strong> Шаблоны и сопоставление</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch18-01-all-the-places-for-patterns.html"><strong aria-hidden="true">18.1.</strong> Все места, где могут использоваться шаблоны</a></li><li class="chapter-item expanded "><a href="ch18-02-refutability.html"><strong aria-hidden="true">18.2.</strong> Опровержимость: может ли шаблон не соответствовать</a></li><li class="chapter-item expanded "><a href="ch18-03-pattern-syntax.html"><strong aria-hidden="true">18.3.</strong> Синтаксис шаблона</a></li></ol></li><li class="chapter-item expanded "><a href="ch19-00-advanced-features.html"><strong aria-hidden="true">19.</strong> Расширенные возможности</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch19-01-unsafe-rust.html"><strong aria-hidden="true">19.1.</strong> Небезопасный код в Rust</a></li><li class="chapter-item expanded "><a href="ch19-03-advanced-traits.html"><strong aria-hidden="true">19.2.</strong> Продвинутые типажи</a></li><li class="chapter-item expanded "><a href="ch19-04-advanced-types.html"><strong aria-hidden="true">19.3.</strong> Продвинутые типы</a></li><li class="chapter-item expanded "><a href="ch19-05-advanced-functions-and-closures.html"><strong aria-hidden="true">19.4.</strong> Продвинутые функции и замыкания</a></li><li class="chapter-item expanded "><a href="ch19-06-macros.html"><strong aria-hidden="true">19.5.</strong> Макросы</a></li></ol></li><li class="chapter-item expanded "><a href="ch20-00-final-project-a-web-server.html"><strong aria-hidden="true">20.</strong> Финальный проект: создание многопоточного веб-сервера</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch20-01-single-threaded.html"><strong aria-hidden="true">20.1.</strong> Создание однопоточного веб-сервера</a></li><li class="chapter-item expanded "><a href="ch20-02-multithreaded.html"><strong aria-hidden="true">20.2.</strong> Превращение нашего однопоточного сервера в многопоточный сервер</a></li><li class="chapter-item expanded "><a href="ch20-03-graceful-shutdown-and-cleanup.html"><strong aria-hidden="true">20.3.</strong> 	Мягкое завершение работы и очистка</a></li></ol></li><li class="chapter-item expanded "><a href="appendix-00.html"><strong aria-hidden="true">21.</strong> Приложения</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="appendix-01-keywords.html"><strong aria-hidden="true">21.1.</strong> А — Ключевые слова</a></li><li class="chapter-item expanded "><a href="appendix-02-operators.html"><strong aria-hidden="true">21.2.</strong> B — Операторы и символы</a></li><li class="chapter-item expanded "><a href="appendix-03-derivable-traits.html"><strong aria-hidden="true">21.3.</strong> C — Выводимые трейты</a></li><li class="chapter-item expanded "><a href="appendix-04-useful-development-tools.html"><strong aria-hidden="true">21.4.</strong> D — Полезные инструменты разработки</a></li><li class="chapter-item expanded "><a href="appendix-05-editions.html"><strong aria-hidden="true">21.5.</strong> E — Редакции</a></li><li class="chapter-item expanded "><a href="appendix-06-translation.html"><strong aria-hidden="true">21.6.</strong> F — Переводы книги</a></li><li class="chapter-item expanded "><a href="appendix-07-nightly-rust.html"><strong aria-hidden="true">21.7.</strong> G — Как создаётся Rust и «Nightly Rust»</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Язык программирования Rust</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="Синтаксис-метода"><a class="header" href="#Синтаксис-метода">Синтаксис метода</a></h2>
+<p><em>Методы</em> похожи на функции: мы объявляем их с помощью ключевого слова <code>fn</code> и имени, они могут иметь параметры и возвращаемое значение, и они содержат код, запускающийся в случае вызова метода. В отличие от функций, методы определяются в контексте структуры (или объекта перечисления или типажа, которые мы рассмотрим в <a href="ch06-00-enums.html">главе 6)</a><!-- ignore --> и <a href="ch17-02-trait-objects.html">главе 17</a><!-- ignore --> соответственно), а их первым параметром всегда является <code>self</code>, представляющий собой экземпляр структуры, с которой вызывается этот метод.</p>
+<h3 id="Определение-методов"><a class="header" href="#Определение-методов">Определение методов</a></h3>
+<p>Давайте изменим функцию <code>area</code> так, чтобы она имела экземпляр <code>Rectangle</code> в качестве входного параметра и сделаем её методом <code>area</code>, определённым для структуры <code>Rectangle</code>, как показано в листинге 5-13:</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><pre class="playground"><code class="language-rust">#[derive(Debug)]
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
+impl Rectangle {
+    fn area(&amp;self) -&gt; u32 {
+        self.width * self.height
+    }
+}
+
+fn main() {
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+
+    println!(
+        &quot;The area of the rectangle is {} square pixels.&quot;,
+        rect1.area()
+    );
+}
+</code></pre></pre>
+<p><span class="caption">Листинг 5-13: Определение метода <code>area</code> для структуры <code>Rectangle</code></span></p>
+<p>Чтобы определить функцию в контексте <code>Rectangle</code>, мы создаём блок <code>impl</code> (implementation - реализация) для <code>Rectangle</code>. Всё в <code>impl</code> будет связано с типом <code>Rectangle</code>. Затем мы перемещаем функцию <code>area</code> внутрь фигурных скобок <code>impl</code> и меняем первый (и в данном случае единственный) параметр на <code>self</code> в сигнатуре и в теле. В <code>main</code>, где мы вызвали функцию <code>area</code> и передали <code>rect1</code> в качестве аргумента, теперь мы можем использовать <em>синтаксис метода</em> для вызова метода <code>area</code> нашего экземпляра <code>Rectangle</code>. Синтаксис метода идёт после экземпляра: мы добавляем точку, за которой следует имя метода, круглые скобки и любые аргументы.</p>
+<p>В сигнатуре <code>area</code> мы используем <code>&amp;self</code> вместо <code>rectangle: &amp;Rectangle</code>. <code>&amp;self</code> на самом деле является сокращением от <code>self: &amp;Self</code>. Внутри блока <code>impl</code> тип <code>Self</code> является псевдонимом типа, для которого реализован блок <code>impl</code>. Методы обязаны иметь параметр с именем <code>self</code> типа <code>Self</code>, поэтому Rust позволяет вам сокращать его, используя только имя <code>self</code> на месте первого параметра. Обратите внимание, что нам по-прежнему нужно использовать <code>&amp;</code> перед сокращением <code>self</code>, чтобы указать на то, что этот метод заимствует экземпляр <code>Self</code>, точно так же, как мы делали это в <code>rectangle: &amp;Rectangle</code>. Как и любой другой параметр, методы могут брать во владение <code>self</code>, заимствовать неизменяемый <code>self</code>, как мы поступили в данном случае, или заимствовать изменяемый <code>self</code>.</p>
+<p>Мы выбрали <code>&amp;self</code> здесь по той же причине, по которой использовали <code>&amp;Rectangle</code> в версии кода с функцией: мы не хотим брать структуру во владение, мы просто хотим прочитать данные в структуре, а не писать в неё. Если бы мы хотели изменить экземпляр, на котором мы вызывали метод силами самого метода, то мы бы использовали <code>&amp;mut self</code> в качестве первого параметра. Наличие метода, который берёт экземпляр во владение, используя только <code>self</code> в качестве первого параметра, является редким; эта техника обычно используется, когда метод превращает <code>self</code> во что-то ещё, и вы хотите запретить вызывающей стороне использовать исходный экземпляр после превращения.</p>
+<p>Основная причина использования методов вместо функций, помимо синтаксиса метода, где нет необходимости повторять тип <code>self</code> в сигнатуре каждого метода, заключается в организации кода. Мы поместили все, что мы можем сделать с экземпляром типа, в один <code>impl</code> вместо того, чтобы заставлять будущих пользователей нашего кода искать доступный функционал <code>Rectangle</code> в разных местах предоставляемой нами библиотеки.</p>
+<p>Обратите внимание, что мы можем дать методу то же имя, что и одному из полей структуры. Например, для <code>Rectangle</code> мы можем определить метод, также названный <code>width</code>:</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#[derive(Debug)]
+</span><span class="boring">struct Rectangle {
+</span><span class="boring">    width: u32,
+</span><span class="boring">    height: u32,
+</span><span class="boring">}
+</span><span class="boring">
+</span>impl Rectangle {
+    fn width(&amp;self) -&gt; bool {
+        self.width &gt; 0
+    }
+}
+
+fn main() {
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+
+    if rect1.width() {
+        println!(&quot;The rectangle has a nonzero width; it is {}&quot;, rect1.width);
+    }
+}
+</code></pre></pre>
+<p>Здесь мы определили, чтобы метод <code>width</code> возвращал значение <code>true</code>, если значение в поле <code>width</code> экземпляра больше <code>0</code>, и значение <code>false</code>, если значение равно <code>0</code>, но мы можем использовать поле в методе с тем же именем для любых целей. В <code>main</code>, когда мы ставим после <code>rect1.width</code> круглые скобки, Rust знает, что мы имеем в виду метод <code>width</code>. Когда мы не используем круглые скобки, Rust понимает, что мы имеем в виду поле <code>width</code>.</p>
+<p>Часто, но не всегда, когда мы создаём методы с тем же именем, что и у поля, мы хотим, чтобы он только возвращал значение одноимённого поля и больше ничего не делал. Подобные методы называются <em>геттерами</em>, и Rust не реализует их автоматически для полей структуры, как это делают некоторые другие языки. Геттеры полезны, поскольку вы можете сделать поле приватным, а метод публичным и, таким образом, включить доступ только для чтения к этому полю как часть общедоступного API типа. Мы обсудим, что такое публичность и приватность, и как обозначить поле или метод в качестве публичного или приватного в <a href="ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html#exposing-paths-with-the-pub-keyword">главе 7</a><!-- ignore -->.</p>
+<blockquote>
+<h3 id="Где-используется-оператор--"><a class="header" href="#Где-используется-оператор--">Где используется оператор <code>-&gt;</code>?</a></h3>
+<p>В языках C и C++, используются два различных оператора для вызова методов: используется <code>.</code>, если вызывается метод непосредственно у экземпляра структуры и используется <code>-&gt;</code>, если вызывается метод для указателя на объект. Другими словами, если <code>object</code> является указателем, то вызовы метода <code>object-&gt;something()</code> и <code> (*object).something()</code> являются аналогичными.</p>
+<p>Rust не имеет эквивалента оператора <code>-&gt;</code>, наоборот, в Rust есть функциональность называемая <em>автоматическое обращение по ссылке и разыменование</em> (automatic referencing and dereferencing). Вызов методов является одним из немногих мест в Rust, в котором есть такое поведение.</p>
+<p>Вот как это работает: когда вы вызываете метод <code>object.something()</code>, Rust автоматически добавляет <code>&amp;</code>, <code>&amp;mut</code> или  <code>*</code>, таким образом, чтобы <code>object</code> соответствовал сигнатуре метода. Другими словами, это то же самое:</p>
+<!-- CAN'T EXTRACT SEE BUG https://github.com/rust-lang/mdBook/issues/1127 -->
+<pre><pre class="playground"><code class="language-rust">
+<span class="boring">#![allow(unused)]
+</span><span class="boring">fn main() {
+</span><span class="boring">#[derive(Debug,Copy,Clone)]
+</span><span class="boring">struct Point {
+</span><span class="boring">    x: f64,
+</span><span class="boring">    y: f64,
+</span><span class="boring">}
+</span><span class="boring">
+</span><span class="boring">impl Point {
+</span><span class="boring">   fn distance(&amp;self, other: &amp;Point) -&gt; f64 {
+</span><span class="boring">       let x_squared = f64::powi(other.x - self.x, 2);
+</span><span class="boring">       let y_squared = f64::powi(other.y - self.y, 2);
+</span><span class="boring">
+</span><span class="boring">       f64::sqrt(x_squared + y_squared)
+</span><span class="boring">   }
+</span><span class="boring">}
+</span><span class="boring">let p1 = Point { x: 0.0, y: 0.0 };
+</span><span class="boring">let p2 = Point { x: 5.0, y: 6.5 };
+</span>p1.distance(&amp;p2);
+(&amp;p1).distance(&amp;p2);
+<span class="boring">}
+</span></code></pre></pre>
+<p>Первый пример выглядит намного понятнее. Автоматический вывод ссылки работает потому, что методы имеют понятного получателя - тип <code>self</code>. Учитывая получателя и имя метода, Rust может точно определить, что в данном случае делает код: читает ли метод (<code>&amp;self</code>), делает ли изменение (<code>&amp;mut self</code>) или поглощает (<code>self</code>). Тот факт, что Rust делает заимствование неявным для принимающего метода, в значительной степени способствует тому, чтобы сделать владение эргономичным на практике.</p>
+</blockquote>
+<h3 id="Методы-с-несколькими-параметрами"><a class="header" href="#Методы-с-несколькими-параметрами">Методы с несколькими параметрами</a></h3>
+<p>Давайте попрактикуемся в использовании методов, реализовав второй метод в структуре <code>Rectangle</code>. На этот раз мы хотим, чтобы экземпляр <code>Rectangle</code> брал другой экземпляр <code>Rectangle</code> и возвращал <code>true</code>, если второй <code>Rectangle</code> может полностью поместиться внутри <code>self</code> (первый <code>Rectangle</code>); в противном случае он должен вернуть <code>false</code>. То есть, как только мы определим метод <code>can_hold</code>, мы хотим иметь возможность написать программу, показанную в Листинге 5-14.</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><code class="language-rust ignore">fn main() {
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+    let rect2 = Rectangle {
+        width: 10,
+        height: 40,
+    };
+    let rect3 = Rectangle {
+        width: 60,
+        height: 45,
+    };
+
+    println!(&quot;Can rect1 hold rect2? {}&quot;, rect1.can_hold(&amp;rect2));
+    println!(&quot;Can rect1 hold rect3? {}&quot;, rect1.can_hold(&amp;rect3));
+}
+</code></pre>
+<p><span class="caption">Листинг 5-14: Использование ещё не написанного метода <code>can_hold</code></span></p>
+<p>Ожидаемый результат будет выглядеть следующим образом, т.к. оба размера в экземпляре <code>rect2</code> меньше, чем размеры в экземпляре <code>rect1</code>, а <code>rect3</code> шире, чем <code>rect1</code>:</p>
+<pre><code class="language-text">Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+</code></pre>
+<p>Мы знаем, что хотим определить метод, поэтому он будет находится в <code>impl Rectangle</code> блоке. Имя метода будет <code>can_hold</code>, и оно будет принимать неизменяемое заимствование на другой <code>Rectangle</code> в качестве параметра. Мы можем сказать, какой это будет тип параметра, посмотрев на код вызывающего метода: метод <code>rect1.can_hold(&amp;rect2)</code> передаёт в него  <code>&amp;rect2</code> , который является неизменяемым заимствованием экземпляра <code>rect2</code> типа <code>Rectangle</code>. В этом есть смысл, потому что нам нужно только читать <code>rect2</code> (а не писать, что означало бы, что нужно изменяемое заимствование), и мы хотим, чтобы <code>main</code> сохранил право собственности на экземпляр <code>rect2</code>, чтобы мы могли использовать его снова после вызов метода <code>can_hold</code>. Возвращаемое значение <code>can_hold</code> имеет булевый тип, а реализация проверяет, являются ли ширина и высота <code>self</code> больше, чем ширина и высота другого <code>Rectangle</code> соответственно. Давайте добавим новый метод <code>can_hold</code> в <code>impl</code> блок из листинга 5-13, как показано в листинге 5-15.</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#[derive(Debug)]
+</span><span class="boring">struct Rectangle {
+</span><span class="boring">    width: u32,
+</span><span class="boring">    height: u32,
+</span><span class="boring">}
+</span><span class="boring">
+</span>impl Rectangle {
+    fn area(&amp;self) -&gt; u32 {
+        self.width * self.height
+    }
+
+    fn can_hold(&amp;self, other: &amp;Rectangle) -&gt; bool {
+        self.width &gt; other.width &amp;&amp; self.height &gt; other.height
+    }
+}
+<span class="boring">
+</span><span class="boring">fn main() {
+</span><span class="boring">    let rect1 = Rectangle {
+</span><span class="boring">        width: 30,
+</span><span class="boring">        height: 50,
+</span><span class="boring">    };
+</span><span class="boring">    let rect2 = Rectangle {
+</span><span class="boring">        width: 10,
+</span><span class="boring">        height: 40,
+</span><span class="boring">    };
+</span><span class="boring">    let rect3 = Rectangle {
+</span><span class="boring">        width: 60,
+</span><span class="boring">        height: 45,
+</span><span class="boring">    };
+</span><span class="boring">
+</span><span class="boring">    println!(&quot;Can rect1 hold rect2? {}&quot;, rect1.can_hold(&amp;rect2));
+</span><span class="boring">    println!(&quot;Can rect1 hold rect3? {}&quot;, rect1.can_hold(&amp;rect3));
+</span><span class="boring">}
+</span></code></pre></pre>
+<p><span class="caption">Листинг 5-15: Реализация метода <code>can_hold</code> для <code>Rectangle</code>, принимающего другой экземпляр <code>Rectangle</code> в качестве параметра</span></p>
+<p>Когда мы запустим код с функцией <code>main</code> листинга 5-14, мы получим желаемый вывод. Методы могут принимать несколько параметров, которые мы добавляем в сигнатуру после первого  параметра <code>self</code>, и эти параметры работают так же, как параметры в функциях.</p>
+<h3 id="Ассоциированные-функции"><a class="header" href="#Ассоциированные-функции">Ассоциированные функции</a></h3>
+<p>Все функции, определённые в блоке <code>impl</code>, называются <em>ассоциированными функциями</em>, потому что они ассоциированы с типом, указанным после ключевого слова <code>impl</code>. Мы можем определить ассоциированные функции, которые не имеют <code>self</code> в качестве первого параметра (и, следовательно, не являются методами), потому что им не нужен экземпляр типа для работы. Мы уже использовали одну подобную функцию: функцию <code>String::from</code>, определённую для типа <code>String</code>.</p>
+<p>Ассоциированные функции, не являющиеся методами, часто используются для конструкторов, возвращающих новый экземпляр структуры. Их часто называют <code>new</code>, но <code>new</code> не является специальным именем и не встроена в язык. Например, мы можем предоставить ассоциированную функцию с именем <code>square</code>, которая будет иметь один параметр размера и использовать его как ширину и высоту, что упростит создание квадратного <code>Rectangle</code>, вместо того, чтобы указывать одно и то же значение дважды:</p>
+<p><span class="filename">Файл: src/main.rs</span></p>
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#[derive(Debug)]
+</span><span class="boring">struct Rectangle {
+</span><span class="boring">    width: u32,
+</span><span class="boring">    height: u32,
+</span><span class="boring">}
+</span><span class="boring">
+</span>impl Rectangle {
+    fn square(size: u32) -&gt; Self {
+        Self {
+            width: size,
+            height: size,
+        }
+    }
+}
+<span class="boring">
+</span><span class="boring">fn main() {
+</span><span class="boring">    let sq = Rectangle::square(3);
+</span><span class="boring">}
+</span></code></pre></pre>
+<p>Ключевые слова <code>Self</code> в возвращаемом типе и в теле функции являются псевдонимами для типа, указанного после ключевого слова <code>impl</code>, которым в данном случае является <code>Rectangle</code>.</p>
+<p>Чтобы вызвать эту связанную функцию, используется синтаксис <code>::</code> с именем структуры; например <code>let sq = Rectangle::square(3);</code>. Эта функция находится в пространстве имён структуры. Синтаксис <code>::</code> используется как для связанных функций, так и для пространств имён, созданных модулями. Мы обсудим модули в <a href="ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html#exposing-paths-with-the-pub-keyword">главе 7</a><!-- ignore -->.</p>
+<h3 id="Несколько-блоков-impl"><a class="header" href="#Несколько-блоков-impl">Несколько блоков <code>impl</code></a></h3>
+<p>Каждая структура может иметь несколько <code>impl</code>. Например, Листинг 5-15 эквивалентен коду, показанному в листинге 5-16, в котором каждый метод находится в своём собственном блоке <code>impl</code>.</p>
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#[derive(Debug)]
+</span><span class="boring">struct Rectangle {
+</span><span class="boring">    width: u32,
+</span><span class="boring">    height: u32,
+</span><span class="boring">}
+</span><span class="boring">
+</span>impl Rectangle {
+    fn area(&amp;self) -&gt; u32 {
+        self.width * self.height
+    }
+}
+
+impl Rectangle {
+    fn can_hold(&amp;self, other: &amp;Rectangle) -&gt; bool {
+        self.width &gt; other.width &amp;&amp; self.height &gt; other.height
+    }
+}
+<span class="boring">
+</span><span class="boring">fn main() {
+</span><span class="boring">    let rect1 = Rectangle {
+</span><span class="boring">        width: 30,
+</span><span class="boring">        height: 50,
+</span><span class="boring">    };
+</span><span class="boring">    let rect2 = Rectangle {
+</span><span class="boring">        width: 10,
+</span><span class="boring">        height: 40,
+</span><span class="boring">    };
+</span><span class="boring">    let rect3 = Rectangle {
+</span><span class="boring">        width: 60,
+</span><span class="boring">        height: 45,
+</span><span class="boring">    };
+</span><span class="boring">
+</span><span class="boring">    println!(&quot;Can rect1 hold rect2? {}&quot;, rect1.can_hold(&amp;rect2));
+</span><span class="boring">    println!(&quot;Can rect1 hold rect3? {}&quot;, rect1.can_hold(&amp;rect3));
+</span><span class="boring">}
+</span></code></pre></pre>
+<p><span class="caption">Листинг 5-16: Переписанный Листинга 5-15 с использованием нескольких <code>impl</code></span></p>
+<p>Здесь нет причин разделять методы на несколько <code>impl</code>, но это допустимый синтаксис. Мы увидим случай, когда несколько <code>impl</code> могут оказаться полезными, в Главе 10, рассматривающей обобщённые типы и свойства.</p>
+<h2 id="Итоги"><a class="header" href="#Итоги">Итоги</a></h2>
+<p>Структуры позволяют создавать собственные типы, которые имеют смысл в вашей предметной области. Используя структуры, вы храните ассоциированные друг с другом фрагменты данных и даёте название частям данных, чтобы ваш код был более понятным. Методы позволяют определить поведение, которое имеют экземпляры ваших структур, а ассоциированные функции позволяют привязать функциональность к вашей структуре, не обращаясь к её экземпляру.</p>
+<p>Но структуры — не единственный способ создавать собственные типы: давайте обратимся к перечислениям в Rust, чтобы добавить ещё один инструмент в свой арсенал.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="ch05-02-example-structs.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="ch06-00-enums.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="ch05-02-example-structs.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="ch06-00-enums.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
 
-	<meta name="verify-v1" content="GHyl+SoxwNckTpfvRZtQKZ3qdF0SBXVQLcpuR0eP4Tk=" />
-	<meta name="yandex-verification" content="872c43d3c57e98b6" />
-
-	<meta property="og:title" content="Книга Если все кошки в мире исчезнут (Кавамура Г., бомбора, ISBN 978-5-04-207739-5) - купить в магазине Чакона" />
-    <meta property="og:description" content="Заказать книгу Если все кошки в мире исчезнут (Кавамура Г., бомбора, 2025) по цене 617&#8381;  с доставкой по всей России в интернет-магазине Чакона. Читайте отзывы и рецензии на сайте." />
-    <meta property="og:image" content="https://img.chaconne.ru/img/4237509_1086592.jpg" />
-    <meta property="og:url" content="https://chaconne.ru/product/4237509/" />
-    <meta property="og:site_name" content="Интернет магазин Чакона" />
-    <meta property="og:locale" content="ru_RU" />
-    <meta property="og:type" content="website" />
-
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="mobile-web-app-capable" content="yes">
-
-	
-
-	<link rel="shortcut icon" href="/favicon.ico" />
-
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json?v=3">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-    <link href="/bs3/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/css/fonts/fonts.css" rel="stylesheet" />
-    <link href="/css/site_components.css?115" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css" href="/css/lightgallery.css" />
-	<script src="https://yastatic.net/jquery/1.12.3/jquery.min.js"></script>
-	<script src="/bs3/js/bootstrap.min.js"></script>
-	<script src="/js/ext/jquery.autocomplete.min.js"></script>
-	<script src="/js/checkForm.js?9"></script>
-	<script src="/js/all.js?16"></script>
-
-	<script type="text/javascript" src="/js/ext/lightgallery.min.js"></script>
-<script charset="windows-1251">
-dataLayer = [];
-
-dataLayer.push({
-		event: "view_item",
-		ecommerce: {
-			items: [{"item_id":"4237509","item_name":"Если все кошки в мире исчезнут","item_category":"Книги","price":617,"item_brand":"бомбора","quantity":1}]
-		}
-	});
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PG9X783');</script>
-<!-- End Google Tag Manager -->
-
-</head>
-<body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG9X783"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-    <div class="container page_container">
-		<header id="mobile_header" class="visible-xs">
-	
-	
-	
-	<div id="menu_xs" class="row">
-		<div class="col-xs-2">
-			<a href="/">
-				<img src="/i/favicon.svg" width="20" height="20" />
-				<br>
-				<span>Главная</span>
-			</a>
-		</div>
-		<div class="col-xs-2">
-			<a href="javascript:" id="catalog_menu_mob_btn">
-				<i class="fa fa-bars fa-lg"></i><br>
-				<span>Каталог</span>
-			</a>
-		</div>
-				<div class="col-xs-2">
-			<a href="/sale/">
-				<i class="fa fa-tag fa-flip-horizontal"></i>
-				<br>
-				<span>Акции</span>
-			</a>
-		</div>
-		<div class="col-xs-2">
-			<a href="/info/opt.php">
-				<i class="fa fa-university fa-lg"></i>
-				<br>
-				<span>Школам</span>
-			</a>
-		</div>
-				<div class="col-xs-2">
-			<a href="/enter.php">
-				<i class="fa fa fa-vcard-o fa-lg"></i><br>
-				<span>Личное</span>
-			</a>
-		</div>
-		<div class="col-xs-2">
-			<a href="/cart.php">
-				<i class="fa fa-shopping-cart fa-lg"></i>
-				<br>
-				<span>Корзина</span>
-			</a>
-						<div class="badge cart-badge hide"></div>
-					</div>
-	</div>
-
-	<div id="sform_xs"></div>
-
-	<div id="catalog_menu_xs"></div>
-
-	
-	<div id="lk_xs">
-		
-<div class="catalog_menu">
-	<ul class="menu">
-				<li>
-			<a class="end "
-			   href="/user/index.php">Мои заказы</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/reserve.php">Отложенные в филиале</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/defer.php">Закладки</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/notice.php">Уведомления</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/card.php">Карта клиента</a>
-		</li>
-				<li>
-			<a class="end "
-			   href="/user/preferences.php">Настройки</a>
-		</li>
-				<li>
-			<a href="/exit.php" class="end">Выход</a>
-		</li>
-	</ul>
-</div>	</div>
-</header>
-
-<script>
-$('#menu_xs a').click(function() {
-	$('#menu_xs a.active').not(this).click();
-	$(this).toggleClass('active');
-}).each(function() {
-	if ($(this).attr('href') === location.pathname) {
-		$(this).addClass('active');
-		return false;
-	}
-});
-</script><header class="hidden-xs">
-	<section class="main">
-		<div class="row">
-
-			<div class="col-sm-3">
-				<a href="/" class="logo">
-					<img src="/i/logo2.svg" />
-				</a>
-			</div>
-
-			<div class="col-sm-6 pad0">
-				
-
-<div class="phone" style="padding-top: 15px;">
-	<a class="unstyled" href="tel:+7 (846) 331-22-33">
-		<img src="/i/phone.svg" width="15" height="15" />
-		+7 (846) 331-22-33	</a>
-	<p>с 10:00 до 20:00</p>
-</div>
-
-<div class="phone" style="padding-top: 15px;">
-	<a href="tel:+7 (8482) 55-55-88">
-		<img src="/i/phone.svg" width="15" height="15" />
-		+7 (8482) 55-55-88
-	</a>
-	<p>с 10:00 до 20:00</p>
-</div>
-
-			</div>
-
-			
-			<div class="col-sm-3">
-				<div class="cart" id="cart" style="padding-top: 15px;">
-	<a href="/cart.php" class="modal-toggle clearfix">
-		<img src="/i/cart_icon.svg" width="32" height="32" />
-		<span class="text">
-						В корзине пока пусто
-					</span>
-	</a>
-</div>			</div>
-
-			<div class="col-sm-12 header-nav-container">
-				<nav class="header-nav">
-					<a href="/info/opt.php">
-						<i class="fa fa-university" style="font-size:1.2em;vertical-align:-8%;"></i>&nbsp;Родителям и школам
-					</a>
-					<a href="/info/delivery/">
-						<i class="fa fa-truck fa-flip-horizontal fa-lg"></i>&nbsp;Доставка
-					</a>
-					<a href="/info/shops.php">
-						<i class="fa fa-shopping-bag" style="font-size:1.15em"></i>&nbsp;Наши магазины
-					</a>
-					<a href="/info/discount.php">
-						<i class="fa fa-percent" style="font-size:1.2em;vertical-align:-7%;"></i>&nbsp;Скидки
-					</a>
-					<a href="/sale/">
-						<i class="fa fa-tag fa-flip-horizontal" style="font-size:1.2em;vertical-align:-7%;"></i>&nbsp;Акции
-					</a>
-					<a href="/enter.php" rel="nofollow">
-						<i class="fa fa-vcard-o" style="font-size:1.2em;vertical-align:-8%;"></i>&nbsp;Мой кабинет
-					</a>
-				</nav>
-			</div>
-		</div>
-	</section>
-</header>
-		<div id="sform_lg">
-			<form class="search" id="sform" action="/search/" onsubmit="return inCheck('#sform')">
-	<input id="search" name="q" type="text" class="form-control" placeholder="Введите для поиска слова, ISBN или код товара" maxlength="100" value="" />
-	<button class="btn-clear hide " type="button" id="srch_clr"><i class="fa fa-times"></i></button>
-	<button class="btn" type="submit"><i class="fa fa-search"></i></button>
-
-	<input type="checkbox" name="kat" id="srch_cat" value="0" class="dis" />
-	<div class="xs-search-cat-label cgr dis">Искать в:</div>
-	<div class="custom_select dropdown">
-		<button class="form-control dropdown-toggle" data-toggle="dropdown" type="button">
-			<span class="text">Во всех разделах</span>
-		</button>
-		<ul id="srch_cat_list" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-<li><a tabindex="-1" href="javascript:;" class="srch-cat-0">Во всех разделах</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-573">Книги</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-548">Канцтовары</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4654">Товары для творчества</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4494">Развивающие игры и игрушки</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-5785">Настольные игры</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4557">Пазлы</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4444">Товары для коллекционеров</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-347">Настенные карты</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-592">Календари</a></li><li><a tabindex="-1" href="javascript:;" class="srch-cat-4551">Товары для праздников</a></li>		</ul>
-	</div>
-
-</form>		</div>
-
-
-        <div class="page_content">
-			
-<nav class="bread_crumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-	<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/"><span itemprop="name">Все товары</span></a>
-		<meta itemprop="position" content="1" />
-	</span><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/category/573/"><span itemprop="name">Книги</span></a>
-		<meta itemprop="position" content="2" />
-	</span><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/category/530/"><span itemprop="name">Художественная литература для взрослых</span></a>
-		<meta itemprop="position" content="3" />
-	</span><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/category/89/"><span itemprop="name">Зарубежная проза</span></a>
-		<meta itemprop="position" content="4" />
-	</span><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="/category/3628/"><span itemprop="name">Проза современных авторов</span></a>
-		<meta itemprop="position" content="5" />
-	</span></nav>
-
-
-<div class="product_info" itemscope itemtype="http://schema.org/Product">
-
-	<h1 itemprop="name">Если все кошки в мире исчезнут</h1>
-
-	<div class="row">
-
-		<div class="col-md-4">
-
-
-			<div id="product_slider" class="carousel">
-
-				<div class="carousel-inner">
-					<div class="item active" data-src="https://img.chaconne.ru/img/4237509_1086592.jpg" data-thumb="https://img.chaconne.ru/rsz/img/4237509_1086592.w300_h350.jpg">
-				<a title="Купить Если все кошки в мире исчезнут" class="img-container">
-					<img src="https://img.chaconne.ru/rsz/img/4237509_1086592.w300_h350.jpg" itemprop="image" /></a>
-			</div>				</div>
-
-				
-			</div><!-- .carousel -->
-
-
-		</div>
-
-
-
-		<div class="col-sm-7 col-md-5">
-			<div class="product_text">
-				<!--h1 itemprop="name">Если все кошки в мире исчезнут</h1-->
-
-				<table>
-					<tbody>
-						<tr>
-							<td>Код товара</td>
-							<td>4237509</td>
-						</tr>
-
-<tr><td>Автор</td><td><a href="/author/147625/" class="author">Кавамура Г.</a></td></tr><tr><td>Издательство</td>
-		<td><a href="/izdatelstvo/20987/"><span itemprop="brand">бомбора</span></a></td></tr><tr><td>Серия</td>
-	<td><a href="/series/16655/">Испытание судьбой</a></td></tr><tr><td>Год выпуска</td><td>2025</td></tr><tr><td>ISBN</td><td>978-5-04-207739-5</td></tr><tr><td>Вес</td>
-		<td>213 г</td></tr><tr><td>Оформление</td><td>мягкая обложка</td></tr><tr><td>Возрастное ограничение</td>
-		<td>12+</td></tr><tr><td>Кол-во страниц</td>
-		<td>240</td></tr><tr><td>Размер</td>
-		<td>200x126x18</td></tr><tr><td><br>Наличие в е-магазине</td>
-	<td><br><b>есть в наличии</b></td></tr>					</tbody>
-				</table>
-
-			</div>
-		</div><!-- .col -->
-
-
-
-		<div class="col-sm-5 col-md-3">
-
-			<div class="order_block" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-				<meta itemprop="priceCurrency" content="RUB"/>
-				<meta itemprop="price" content="617">
-
-						<!-- h5>Цена в интернет-магазине</h5 -->
-
-		<div class="price"><strong><span>617</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-		<div class="btns btns4237509"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4237509,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4237509" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>	
-		<div class="rozn small">
-		<strong>Цена в розничном магазине</strong>
-		<div class="price"><strong><span>710</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<button class="btn btn-success btn-sm" href="#nalich" onclick="$('#nalich_btn').click();$(window).scrollTop($('#nalich_btn').offset().top)">Отложить в филиале</button>
-			</div>
-	
-
-			</div><!-- .order_block -->
-
-
-			<div style="margin-bottom:35px;height:40px;padding-top:6px;">
-<script src="https://yastatic.net/share2/share.js"></script>
-<div class="ya-share2 text-center" data-curtain data-limit="3" data-services="vkontakte,odnoklassniki,telegram,moimir,evernote,lj"></div>
-</div>
-		</div><!-- .col -->
-	</div><!-- .row -->
-
-
-
-	<div class="product_tab">
-
-		<ul class="nav nav-tabs" role="tablist">
-			<li role="presentation" class="active">
-				<a href="#description" aria-controls="description" role="tab" data-toggle="tab">
-					<span>Описание</span>
-				</a>
-			</li>
-			<li role="presentation">
-				<a href="#nalich" name="nalich" aria-controls="nalich"
-				   role="tab" data-toggle="tab" id="nalich_btn">
-					<span>Наличие в магазинах</span>
-				</a>
-			</li>
-			<li role="presentation">
-				<a href="#discount" name="discount" aria-controls="discount"
-				   role="tab" data-toggle="tab" id="discount_btn">
-					<span>Скидки</span>
-				</a>
-			</li>
-			<li role="presentation">
-				<a href="#extrainfo" name="extrainfo" aria-controls="extrainfo"
-				   role="tab" data-toggle="tab" id="extrainfo_btn">
-					<span>Запрос информации</span>
-				</a>
-			</li>
-		</ul>
-
-		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="description">
-				<div id="description_wrap" itemprop="description">
-					Международный феномен, проданный тиражом более двух миллионов экземпляров! Это согревающая, забавная и глубокая книга о смысле жизни. Подарочное издание с клапанами.<br />
-<br />
-Дни молодого почтальона сочтены. Оторванный от своей семьи и живущий один, со своим котом Капустой, он не был готов к страшному диагнозу: жить ему осталось всего несколько месяцев. Но прежде чем он сможет привести свои дела в порядок, появляется дьявол с очень необычным предложением. Темная сила обещает продлить умирающему жизнь, но в обмен за каждый дополнительный день одна вещь в мире будет исчезать бесследно... И вот начинается очень странная неделя, которая ставит молодого почтальона и его любимого кота на грань существования.<br />
-<br />
-С каждым исчезающим предметом почтальон размышляет о жизни, которую он прожил, о своих радостях и сожалениях, а также о людях, которых он любил и потерял.<br />
-<br />
-Эта вневременная история от Генки Кавамуры (продюсера японского анимационного фильма «Ваше имя») — трогательное повествование о потере, примирении, непростом выборе человека и его попытках понять, что действительно в жизни важно.				</div>
-				<div id="description_more" class="hidden tb text-center">
-					<a href="javascript:">показать полностью</a>
-				</div>
-
-							</div>
-			<div role="tabpanel" class="tab-pane" id="nalich">
-				<div class="text-center"><i class="fa fa-5x fa-spinner fa-pulse"></i></div>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="extrainfo">
-				<div class="text-center"><i class="fa fa-5x fa-spinner fa-pulse"></i></div>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="discount">
-				<div class="text-center"><i class="fa fa-5x fa-spinner fa-pulse"></i></div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="row">
-		<div class="col-md-12">
-
-	<hr /><br /><br />
-	<h4>Рецензии и отзывы на книгу "Если все кошки в мире исчезнут"</h4>
-<p>Ваш отзыв будет первым</p><br />
-<button type="button" class="btn btn-primary btn-lg show-comment-form-btn">Оставить отзыв</button>
-<div class="small" id="comment"></div>
-
-<br /><br />
-
-		</div>
-
-	</div><!-- .row -->
-</div><!-- .product_info -->
-
-<script>
-var nalichLoadedFlg = false,
-	extrainfoLoadedFlg = false,
-	discountLoadedFlg = false;
-
-$('#nalich_btn').click(function() {
-	if (nalichLoadedFlg) {
-		return;
-	}
-
-	$.getScript("https://api-maps.yandex.ru/2.1/?lang=ru-RU", function() {
-		$('#nalich').load('/block/nalich.php?id=4237509');
-		nalichLoadedFlg = true;
-	});
-});
-
-$('#extrainfo_btn').click(function() {
-	if (extrainfoLoadedFlg) {
-		return;
-	}
-
-	$('#extrainfo').load('/block/extrainfo.php?id=4237509');
-	extrainfoLoadedFlg = true;
-});
-
-$('#discount_btn').click(function() {
-	if (discountLoadedFlg) {
-		return;
-	}
-
-	$('#discount').load('/block/discount.php');
-	discountLoadedFlg = true;
-});
-
-$('.show-comment-form-btn').click(function() {
-	$(this).slideUp();
-	$('#comment').load('/block/comment.php?id=4237509');
-});
-
-$(function() {
-	var descrDiv = $('#description_wrap'), descrDivH;
-	if (descrDiv.height() > 400) {
-		descrDivH = descrDiv.height();
-		descrDiv.height(400);
-		$('#description_more').removeClass('hidden').click(function() {
-			descrDiv.height(descrDivH);
-			$(this).remove();
-		});
-	}
-
-	$('.carousel .carousel-inner').lightGallery({
-		download:false,
-		exThumbImage:'data-thumb'
-	});
-
-//	$('.carousel-indicators li').click(function() {
-//		var i = $(this, '.carousel-indicators').index();
-//		$('.carousel-inner div').eq(i).click();
-//	});
-});
-</script>
-<br><br><div class="products slidepanel-wrap ">
-	<div class="site_title small_margin">
-		<h4>Другие издания:</h4>
-	</div>
-
-	<div class="slidepanel-wrap">
-		<div class="slidepanel-container">
-			<div class="slidepanel">
-				<table><tr>
-					<td>
-	<div class="product">
-				<a href="/product/4190589/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4190589_1030406.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4190589/" class="title text-center" title="Если все кошки в мире исчезнут">Если все кошки в мире исчезнут</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/147625/" class="author">Кавамура Г.</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>338</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4190589"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4190589,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4190589" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td>				</tr></table>
-			</div>
-		</div>
-		<a href="javascript:" onclick="slidePan(-1, this)" class="slidepanel-btn" role="button"></a>
-		<a href="javascript:" onclick="slidePan(1, this)" class="slidepanel-btn right" role="button"></a>
-
-		<ol class="carousel-indicators hidden-xs"></ol>
-	</div>
-</div>
-<div class="products slidepanel-wrap gtm_bestsellers">
-	<div class="site_title small_margin">
-		<h4>Лидеры продаж</h4>
-	</div>
-
-	<div class="slidepanel-wrap">
-		<div class="slidepanel-container">
-			<div class="slidepanel">
-				<table><tr>
-					<td>
-	<div class="product">
-				<a href="/product/4189593/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4189593_1029432.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4189593/" class="title text-center" title="Семь сестер. Сестра солнца">Семь сестер. Сестра солнца</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/134749/" class="author">Райли Люсинда</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>963</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4189593"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4189593,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4189593" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/3718118/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/3718118_711111.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/3718118/" class="title text-center" title="Шантарам в 2х книгах">Шантарам в 2х книгах</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/125858/" class="author">Робертс Грегори Дэвид</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>703</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns3718118"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(3718118,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="3718118" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4104560/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4104560_952603.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4104560/" class="title text-center" title="Цветы для Элджернона">Цветы для Элджернона</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/117871/" class="author">Киз Дэниел</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>568</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4104560"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4104560,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4104560" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4207610/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4207610_1055508.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4207610/" class="title text-center" title="Из Лондона с любовью">Из Лондона с любовью</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/111080/" class="author">Джио Сара</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>578</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4207610"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4207610,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4207610" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4183724/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4183724_1023983.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4183724/" class="title text-center" title="Маленькая пекарня у моря">Маленькая пекарня у моря</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/135197/" class="author">Колган Дженни</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>224</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4183724"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4183724,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4183724" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4132666/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4132666_973176.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4132666/" class="title text-center" title="Семь сестер. Сестра тени">Семь сестер. Сестра тени</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/134749/" class="author">Райли Люсинда</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>963</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4132666"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4132666,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4132666" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4006195/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4006195_841102.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4006195/" class="title text-center" title="Медвежий угол">Медвежий угол</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/131090/" class="author">Бакман Фредрик</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>953</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4006195"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4006195,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4006195" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/2565996/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/2565996.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/2565996/" class="title text-center" title="Шантарам">Шантарам</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/125858/" class="author">Робертс Грегори Дэвид</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>1&nbsp;293</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns2565996"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(2565996,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="2565996" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/2655490/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/2655490.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/2655490/" class="title text-center" title="Маятник Фуко">Маятник Фуко</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/118184/" class="author">Эко Умберто</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>1&nbsp;738</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns2655490"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(2655490,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="2655490" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4119184/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4119184_964050.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4119184/" class="title text-center" title="Семь сестер">Семь сестер</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/134749/" class="author">Райли Люсинда</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>963</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4119184"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4119184,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4119184" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4190589/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4190589_1030406.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4190589/" class="title text-center" title="Если все кошки в мире исчезнут">Если все кошки в мире исчезнут</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/147625/" class="author">Кавамура Г.</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>338</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4190589"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4190589,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4190589" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4083583/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4083583_939599.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4083583/" class="title text-center" title="Тревожные люди">Тревожные люди</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/131090/" class="author">Бакман Фредрик</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>978</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4083583"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4083583,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4083583" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4216633/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4216633_1063041.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4216633/" class="title text-center" title="После бури">После бури</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/131090/" class="author">Бакман Фредрик</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>1&nbsp;120</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4216633"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4216633,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4216633" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4217383/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4217383_1061935.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4217383/" class="title text-center" title="Добро пожаловать в Книжный на Хюнамдоне">Добро пожаловать в Книжный на Хюнамдоне</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/171188/" class="author">Хван Порым</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>544</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4217383"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4217383,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4217383" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/2656524/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/2656524.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/2656524/" class="title text-center" title="Цветы для Элджернона">Цветы для Элджернона</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/117871/" class="author">Киз Дэниел</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>617</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns2656524"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(2656524,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="2656524" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4085782/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4085782_938241.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4085782/" class="title text-center" title="Книжный магазинчик счастья">Книжный магазинчик счастья</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/135197/" class="author">Колган Дженни</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>301</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4085782"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4085782,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4085782" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4131914/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4131914_972691.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4131914/" class="title text-center" title="Семь сестер. Сестра луны">Семь сестер. Сестра луны</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/134749/" class="author">Райли Люсинда</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>1&nbsp;207</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4131914"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4131914,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4131914" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/2415202/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/2415202.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/2415202/" class="title text-center" title="Бегущий за ветром">Бегущий за ветром</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/72250/" class="author">Хоссейни</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>1&nbsp;024</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns2415202"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(2415202,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="2415202" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4183758/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4183758_1021971.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4183758/" class="title text-center" title="Яблоки не падают никогда">Яблоки не падают никогда</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/136766/" class="author">Мориарти Л.</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>301</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4183758"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4183758,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4183758" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td><td>
-	<div class="product">
-				<a href="/product/4050258/" class="img-container bg-item size-3x4" data-image-src="https://img.chaconne.ru/rsz/img/4050258_910928.w300_h350_q90.jpg" itemprop="image"></a>
-		<a href="/product/4050258/" class="title text-center" title="Мы против вас">Мы против вас</a>
-
-		<div class="grid-row-height text-center">
-			<i class="fa fa-user-circle-o author"></i> <a href="/author/131090/" class="author">Бакман Фредрик</a>		</div>
-
-		<div class="clearfix order">
-
-			
-				<div class="price"><strong><span>885</span>&nbsp;<i class="fa fa-rouble"></i></strong></div>
-				<div class="btns btns4050258"><button class="gtm_buybtn btn btn-success btn-sm" onclick="buy(4050258,0)"><i class="fa fa-shopping-cart"></i> Купить</button><button class="defer-btn btn showWarn btn-sm" data-id="4050258" data-warn="defer-not-reg-notice"><i class="fa fa-bookmark-o"></i></button></div>
-			
-		</div>
-			</div></td>				</tr></table>
-			</div>
-		</div>
-		<a href="javascript:" onclick="slidePan(-1, this)" class="slidepanel-btn" role="button"></a>
-		<a href="javascript:" onclick="slidePan(1, this)" class="slidepanel-btn right" role="button"></a>
-
-		<ol class="carousel-indicators hidden-xs"></ol>
-	</div>
-</div>
-
-	<div class="panel-footer" style="border:none">
-	Купить книгу "Если все кошки в мире исчезнут", Кавамура Г., (издательство бомбора, мягкая обложка) с доставкой можно в интернет-магазине или одном из магазинов розничной сети Чакона (Самара, Тольятти, Новокуйбышевск, Сызрань). Оформите заказ сейчас или добавьте книгу "Если все кошки в мире исчезнут" в свой список желаний.
-	</div>
         </div>
 
-		<div class="clearfix"></div><br /><br />
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
-
-        <footer>
-            <div class="row">
-                <div class="col-sm-4">
-					<h4>Каталог товаров</h4>
-					<ul class="menu">
-						<li><a href="/category/573/">Книги</a></li><li><a href="/category/548/">Канцтовары</a></li><li><a href="/category/4654/">Товары для творчества</a></li><li><a href="/category/4494/">Развивающие игры и игрушки</a></li><li><a href="/category/5785/">Настольные игры</a></li><li><a href="/category/4557/">Пазлы</a></li><li><a href="/category/4444/">Товары для коллекционеров</a></li><li><a href="/category/347/">Настенные карты</a></li><li><a href="/category/592/">Календари</a></li><li><a href="/category/4551/">Товары для праздников</a></li>					</ul>
-				</div>
-
-				<div class="col-sm-4">
-					<h4>Покупателям</h4>
-					<ul class="menu">
-						<li><a href="/news/">Новости</a></li>
-						<li><a href="/info/delivery/">Доставка</a></li>
-						<li><a href="/info/payment.php">Оплата</a></li>
-						<li><a href="/faq/">Часто задаваемые вопросы</a></li>
-						<li><a href="/order/terms_of_return.php">Условия возврата</a></li>
-						<li><a href="/info/discount_card.php">Бонусная программа</a></li>
-						<li><a href="/info/discount.php">Скидки</a></li>
-						<li><a href="/sale/">Акции</a></li>
-						<li><a href="/info/giftcard.php">Подарочные карты</a></li>
-						<li><a href="/info/opt.php">Оптовый отдел</a></li>
-						<li><a href="/order/terms_of_service.php">Пользовательское соглашение</a></li>
-						<li><a href="/order/terms_of_private_data.php">Политика компании в отношении<br> обработки персональных данных</a></li>
-					</ul>
-                </div>
-
-                <div class="col-sm-4">
-					<h6><a data-toggle="modal" data-target="#user_er_mess" class="cur"
-						onclick="if(!$('#feedback_frame').prop('src')){$('#feedback_frame').prop('src', $('#feedback_frame').data('src'))}">
-							Сообщить об ошибке,<br>предложить улучшение</a></h6>
-					<br>
-					<h4><a href="/competition/">Конкурсы</a></h4>
-					<br>
-					<h4><a href="/info/about.php">О компании</a></h4>
-					<ul class="menu">
-						<li><a href="/info/shops.php">Наши магазины</a></li>
-						<!--<li><a href="/info/about.php">История фирмы</a></li>-->
-						<li><a href="/info/vacancy.php">Вакансии</a></li>
-						<li><a href="/info/contacts.php">Контакты</a></li>
-						<li><a href="https://vk.com/chaconne63" target="_blank">
-							<span class="fa-stack">
-								<i class="fa fa-square fa-stack-2x" style="color:#375474"></i>
-								<i class="fa fa-vk fa-stack-1x fa-inverse"></i>
-							</span>
-							Новостная группа</a></li>
-					</ul>
-					<br>
-					<h4>Консультант по заказам<br> интернет-магазина:</h4>
-					<ul class="list-unstyled">
-						<li style="padding-bottom: 9px">
-							<a href="viber://chat?number=+79170121747" class="unstyled">
-							<img src="/i/viber.svg" width="22" />
-							viber +7-917-012-17-47</a>
-						</li>
-											</ul>
-
-					<br>
-
-					<h4 class="visible-xs">Телефоны:</h4>
-					<ul class="visible-xs list-unstyled cards">
-						<li style="padding-bottom: 9px">
-							<a class="unstyled" href="tel:+7 (846) 331-22-33">
-							<img src="/i/phone.svg" width="16" height="16" />
-							+7 (846) 331-22-33</a> Самара
-							<br class="visible-xs" />с 10:00 до 20:30
-						</li>
-						<li>
-							<a class="unstyled" href="tel:+7 (8482) 55-55-88">
-							<img src="/i/phone.svg" width="16" height="16" />
-							+7 (8482) 55-55-88</a> Тольятти
-							<br class="visible-xs" />с 10:00 до 20:00
-						</li>
-					</ul>
-                </div>
-            </div><!-- .row -->
-
-			<blockquote class="small">
-				В ассортименте могут встречаться товары с символикой соцсетей Facebook и Instagram, правомерно введенные в гражданский оборот до признания экстремистской организации Meta Platforms Inc, продуктами которой они являются. Приобретение и использование этих товаров не нарушает действующее законодательство.
-			</blockquote>
-
-            <div class="text">
-                <p>© 1994-2025 Интернет-магазин "Чакона": купить книги в Самаре, Тольятти, Новокуйбышевске и Сызрани.</p>
-            </div>
-        </footer>
-
-    </div>
-
-	<div id="scrolltop-btn" title="Наверх" class="hidden-xs hide" onclick="$('html, body').animate({scrollTop:0},500)">&#8593;</div>
-
-
-	<div style="visibility:hidden;position:absolute;left:-100%" id="catalog_menu_init_container">
-	<div id="catalog_menu" class="catalog_menu">
-		<ul class="menu start" id="menucat0"><li>
-	<a class="gtm_menu_catalog cat573 next " data-id="573" href="javascript:">
-		Книги			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat548 next " data-id="548" href="javascript:">
-		Канцтовары			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4654 next " data-id="4654" href="javascript:">
-		Товары для творчества			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4494 next " data-id="4494" href="javascript:">
-		Развивающие игры и игрушки			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat5785 next " data-id="5785" href="javascript:">
-		Настольные игры			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4557 next " data-id="4557" href="javascript:">
-		Пазлы			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4444 next " data-id="4444" href="javascript:">
-		Товары для коллекционеров			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat347 end " data-id="347" href="/category/347/">
-		Настенные карты			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat592 next " data-id="592" href="javascript:">
-		Календари			</a>
-</li><li>
-	<a class="gtm_menu_catalog cat4551 next " data-id="4551" href="javascript:">
-		Товары для праздников			</a>
-</li></ul>	</div>
-</div>
-
-<script>
-var catalogMenuPath = [0], catalogMenuHeight,
-	listId = 0;
-
-
-/*------------------------------------------------------------------------------------------*/
-
-$('#catalog_menu').on('click', 'a.next', function() {
-	var _this = $(this),
-		id = _this.data('id'),
-		_id = '#menucat'+id.toString(10).replace('.','\\.'),
-		m = $(_id),
-		_show = function() {
-			catalogMenuHeight = m.height()-2/*border*/;
-			$('#catalog_menu').height(catalogMenuHeight);
-			m.css({left:0});
-			if (m.offset().top < $(window).scrollTop()) {
-				$('html,body').animate({scrollTop:m.offset().top}, 500);
-			}
-		};
-
-	catalogMenuPath.push(id);
-
-	if (!m.length) {
-		_this.addClass('wait');
-		$.get('/ajax/catalog_menu.php', {id:id, list:listId}, function(res) {
-			$('#catalog_menu').append(res);
-			m = $(_id);
-			_show();
-			_this.removeClass('wait');
-		}, 'html');
-	}
-	else {
-		_show();
-	}
-});
-
-/*------------------------------------------------------------------------------------------*/
-
-$('#catalog_menu').on('click', 'a.prev', function () {
-	var _this = $(this),
-		m = $(this).closest('.menu'),
-		id = catalogMenuPath[catalogMenuPath.length - 2],
-		_id = '#menucat'+id.toString(10).replace('.','\\.'),
-		_show = function() {
-			catalogMenuHeight = $(_id).height()-2/*border*/;
-			$('#catalog_menu').height(catalogMenuHeight);
-			m.css({left:'100%'});
-		};
-
-	catalogMenuPath.pop();
-
-	if (!$(_id).length) {
-		_this.addClass('wait');
-		$.get('/ajax/catalog_menu.php', {id:id, list:listId}, function(res) {
-			$('#catalog_menu').prepend(res);
-			$(_id).css({left:0});
-			_show();
-			_this.removeClass('wait');
-		}, 'html');
-	}
-	else {
-		_show();
-	}
-});
-
-/*------------------------------------------------------------------------------------------*/
-
-$('#catalog_menu_mob_btn').click(function() {
-	if ($(this).hasClass('active')) {
-		$('#catalog_menu_xs').css({height: catalogMenuHeight+15/*margin*/});
-		setTimeout(function() { // wait animation
-			$('#catalog_menu_xs').css({height: 'auto'});
-		}, 500);
-	}
-	else {
-		$('#catalog_menu_xs').height(catalogMenuHeight);
-		$('#catalog_menu_xs').height(0);
-	}
-
-});
-</script>
-	<div id="user_er_mess" class="modal fade">
-	<div class="modal-dialog">
-		<div class="modal-content">
-
-	<div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Сообщение</h4>
-	</div>
-
-	<div class="modal-body">
-		<iframe id="feedback_frame" data-src="/feedback_form.php"
-			width="100%" height="430" frameborder="0"></iframe>
-	</div>
-
-		</div>
-	</div>
-</div>
-
-	<div class="alert alert-warning" id="defer-not-reg-notice" style="display:none;position:absolute;width:200px;z-index:1000">
-		Пожалуйста, <a href="/enter.php">войдите</a> или <a href="/reg/">зарегистрируйтесь</a>,
-		чтобы мы могли сохранить Ваш список.
-	</div>
-
-	<script src="/js/last.js?31"></script>
-
-	
-	
-</body>
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="ferris.js"></script>
+    </body>
 </html>
-<!-- render time: 0,385 sec -->
