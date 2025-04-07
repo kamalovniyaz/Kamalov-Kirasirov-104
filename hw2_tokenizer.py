@@ -23,6 +23,7 @@ IGNORED_POS = {
     "PART",  # Частицы (например, "же", "ли")
     "ADP",  # Предлоги (например, "в", "на")
 }
+INORED_WORDS = {"бы", "на", "как", "если"} # Игнорировать отдельно (Natasha не распознает их как игнорируемые части речи)
 
 
 def process_html_files():
@@ -58,7 +59,14 @@ def process_html_files():
         # Лемматизация
         for token in doc.tokens:
             token.lemmatize(morph_vocab)
-        tokens = [token for token in doc.tokens if token.pos not in IGNORED_POS]
+        
+        tokens = [
+            token for token in doc.tokens if 
+                    token.pos not in IGNORED_POS and
+                    token.lemma.lower() not in INORED_WORDS and
+                    len(token.lemma) > 1
+        ]
+
 
         have = set()
         words = []
