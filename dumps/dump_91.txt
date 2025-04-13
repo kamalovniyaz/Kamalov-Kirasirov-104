@@ -197,9 +197,10 @@
 </code></pre>
 <p>Этот код читается как &quot;функция <code>bar</code> ничего не возвращает&quot;. Функции, которые ничего не возвращают, называются <em>рассеивающими функциями</em> (diverging functions). Мы не можем производить значения типа <code>!</code>, поэтому <code>bar</code> никогда ничего не вернёт.</p>
 <p>Но для чего нужен тип, для которого вы никогда не сможете создать значения? Напомним код из листинга 2-5, фрагмента &quot;игры в загадки&quot;; мы воспроизвели его часть здесь в листинге 19-26.</p>
-<pre><code class="language-rust ignore"><span class="boring">use rand::Rng;
-</span><span class="boring">use std::cmp::Ordering;
+<pre><code class="language-rust ignore"><span class="boring">use std::cmp::Ordering;
 </span><span class="boring">use std::io;
+</span><span class="boring">
+</span><span class="boring">use rand::Rng;
 </span><span class="boring">
 </span><span class="boring">fn main() {
 </span><span class="boring">    println!(&quot;Guess the number!&quot;);

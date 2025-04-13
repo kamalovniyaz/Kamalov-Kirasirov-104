@@ -293,6 +293,7 @@ pub fn eat_at_restaurant() {
 <p>Добавление <code>rand</code> в качестве зависимости в <em>Cargo.toml</em> указывает Cargo загрузить пакет <code>rand</code> и все его зависимости из <a href="https://crates.io/">crates.io</a> и сделать <code>rand</code> доступным для нашего проекта.</p>
 <p>Затем, чтобы подключить определения <code>rand</code> в область видимости нашего пакета, мы добавили строку <code>use</code> начинающуюся с названия пакета <code>rand</code> и списка элементов, которые мы хотим подключить в область видимости. Напомним, что в разделе <a href="ch02-00-guessing-game-tutorial.html#generating-a-random-number">&quot;Генерация случайного числа&quot;</a><!-- ignore --> Главы 2, мы подключили трейт <code>Rng</code> в область видимости и вызвали функцию <code>rand::thread_rng</code>:</p>
 <pre><code class="language-rust ignore"><span class="boring">use std::io;
+</span><span class="boring">
 </span>use rand::Rng;
 
 fn main() {
