@@ -1,0 +1,6 @@
+BASE_PAGE_URL = 'https://doc.rust-lang.ru/book'
+OUTPUT_DIR = 'output'
+URLS_FILENAME = 'index.txt'
+DUMPS_DIR = 'dumps'
+TOKENS_DIR = 'tokens'
+LEMMAS_DIR = 'lemmas'
