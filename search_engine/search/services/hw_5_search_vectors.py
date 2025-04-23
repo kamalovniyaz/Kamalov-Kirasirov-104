@@ -4,8 +4,8 @@ from pathlib import Path
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
-from ..constants import OUTPUT_DIR, URLS_FILENAME
-
+OUTPUT_DIR = 'output'
+URLS_FILENAME = 'index.txt'
 
 def load_tfidf_data(output_dir) -> tuple[dict, set]:
     """Загружает данные TF-IDF из папки output."""
@@ -24,6 +24,8 @@ def load_tfidf_data(output_dir) -> tuple[dict, set]:
                     vocabulary.add(term)
             tfidf_data[page_num] = tfidf_vector
 
+    print('Vocabulary size:', len(vocabulary))
+    print('TF-IDF data loaded:', len(tfidf_data), 'documents')
     return tfidf_data, vocabulary
 
 
@@ -34,6 +36,7 @@ def load_pages_url(urls_filename) -> dict[int, str]:
         for page_number, line in enumerate(file):
             _, url = line.strip().split()
             urls_dir[page_number] = url
+    print('URLs loaded:', urls_dir)
     return urls_dir
 
 
@@ -41,6 +44,7 @@ def preprocess_query(query, vocabulary) -> dict[str, int]:
     """Токенизирует запрос и создает вектор TF-IDF для запроса."""
     query_terms = query.lower().split()
     query_vector = {term: 1 for term in query_terms if term in vocabulary}
+    print('Query vector size:', len(query_vector))
     return query_vector
 
 
@@ -55,6 +59,7 @@ def compute_cosine_similarity(query_vector, document_vectors, vocabulary):
         similarities.append((page_num, similarity))
 
     similarities.sort(key=lambda x: x[1], reverse=True)
+    print('Top 10 similarities:', similarities[:10])
     return similarities
 
 

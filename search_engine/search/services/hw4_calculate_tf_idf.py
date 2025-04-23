@@ -1,9 +1,13 @@
+import glob
 import os
 import math
 from collections import defaultdict
+import re
 
-from search_engine.search.constants import DUMPS_DIR, TOKENS_DIR, LEMMAS_DIR, OUTPUT_DIR
+from hw2_tokenizer import get_tokens
 
+OUTPUT_DIR = 'output'
+DUMPS_DIR = 'dumps'
 
 def read_files(directory):
     """Чтение файлов из директории."""
@@ -17,19 +21,19 @@ def read_files(directory):
     return data
 
 
-def calculate_tf(tokens, total_terms):
+def calculate_tf(tokens):
     """Расчет TF для терминов или лемм в документе."""
     term_count = defaultdict(int)
     for term in tokens:
         term_count[term] += 1
-    if total_terms == 0:
-        tf = {term: 0 for term in term_count}
+    if len(tokens) == 0:
+        return tokens
     else:
-        tf = {term: count / total_terms for term, count in term_count.items()}
+        tf = {term: count / len(tokens) for term, count in term_count.items()}
     return tf
 
-
-def calculate_idf(documents, terms):
+# terms - список токенов, documents - словарь документ: список терминов
+def calculate_idf(tokens, documents):
     """Расчет IDF для терминов или лемм."""
     num_docs = len(documents)
     term_doc_count = defaultdict(int)
@@ -38,8 +42,8 @@ def calculate_idf(documents, terms):
         for term in unique_terms:
             term_doc_count[term] += 1
     idf = {
-        term: math.log(max(1, num_docs / (1 + term_doc_count[term])))
-        for term in terms
+        term: math.log(num_docs / (1 + term_doc_count[term]))
+        for term in tokens
     }
     return idf
 
@@ -47,63 +51,72 @@ def calculate_idf(documents, terms):
 def save_results(filename, data):
     """Сохранение результатов в файл."""
     with open(filename, 'w', encoding='utf-8') as file:
-        for term, (idf, tf_idf) in data.items():
+        for term in sorted(data):
+            idf, tf_idf = data[term]
             if tf_idf > 0:
                 file.write(f"{term} {idf} {tf_idf}\n")
 
 
-def main(dumps_dir, tokens_dir, lemmas_dir, output_dir):
-    dumps_data = read_files(dumps_dir)
+def main(dumps_dir, output_dir):
+    # 1. Для каждого файла в dumps получить типа 1: [] список терминов (для токенов и лемм)
+    # 2. Посчитать tf для каждого документа
+    # 3. Посчитать idf для каждого документа
+    # 4. Сохранить результаты в файл
 
-    tokens_data = read_files(tokens_dir)
-    lemmas_data = read_files(lemmas_dir)
+    file_numbers = []
+    all_tokens = {}
+    all_lemmas = {}
 
-    dumps_keys = {key.replace("dump_", ""): key for key in dumps_data.keys()}
-    tokens_keys = {key.replace("tokens_", ""): key for key in tokens_data.keys()}
-    lemmas_keys = {key.replace("lemmas_", ""): key for key in lemmas_data.keys()}
+    for dump_file in glob.glob(os.path.join(DUMPS_DIR, 'dump_*.txt')):
+        file_number = re.search(r'\d+', dump_file).group()
+        file_numbers.append(file_number)
 
-    common_numbers = set(dumps_keys.keys()) & set(tokens_keys.keys()) & set(lemmas_keys.keys())
-    if not common_numbers:
-        raise ValueError("Нет совпадающих файлов в папках dumps, tokens и lemmas.")
+        for word, lemma in get_tokens(dump_file):
+            if file_number not in all_tokens:
+                all_tokens[file_number] = []
+            all_tokens[file_number].append(word.strip().lower())
 
-    filtered_dumps_data = {dumps_keys[num]: dumps_data[dumps_keys[num]] for num in common_numbers}
-    filtered_tokens_data = {tokens_keys[num]: tokens_data[tokens_keys[num]] for num in common_numbers}
-    filtered_lemmas_data = {lemmas_keys[num]: lemmas_data[lemmas_keys[num]] for num in common_numbers}
+            if file_number not in all_lemmas:
+                all_lemmas[file_number] = []
+            all_lemmas[file_number].append(lemma.strip().lower())
+    
+    # --- tokens ---
+    tokens_tf = {}
+    for file_number, tokens in all_tokens.items():
+        tokens_tf[file_number] = calculate_tf(tokens)
 
-    all_terms = set(term for doc in filtered_tokens_data.values() for term in doc)
-    all_lemmas = set(lemma for doc in filtered_lemmas_data.values() for lemma in doc)
+    tokens_idf = {}
+    for file_number, tokens in all_tokens.items():
+        tokens_idf[file_number] = calculate_idf(tokens, all_tokens)
+    
+    for file_number in file_numbers:
+        output_file = os.path.join(output_dir, f"tokens_{file_number}.txt")
+        result = {}
+        for term in tokens_idf[file_number].keys():
+            result[term] = (
+                tokens_idf[file_number][term],
+                tokens_tf[file_number][term] * tokens_idf[file_number][term]
+            )
+        save_results(output_file, result)
 
-    idf_terms = calculate_idf(filtered_tokens_data, all_terms)
-    idf_lemmas = calculate_idf(filtered_lemmas_data, all_lemmas)
+    # --- lemmas ---
+    lemmas_tf = {}
+    for file_number, lemmas in all_lemmas.items():
+        lemmas_tf[file_number] = calculate_tf(lemmas)
 
-    # Обработка каждого документа
-    for doc_num in common_numbers:
-        doc_name = f"dump_{doc_num}"
-        tokens_name = f"tokens_{doc_num}"
-        lemmas_name = f"lemmas_{doc_num}"
+    lemmas_idf = {}
+    for file_number, lemmas in all_lemmas.items():
+        lemmas_idf[file_number] = calculate_idf(lemmas, all_lemmas)
 
-        # Общее количество слов в документе
-        total_terms = len(filtered_dumps_data[doc_name])
-
-        # Термины
-        tokens = filtered_tokens_data[tokens_name]
-        tf_terms = calculate_tf(tokens, total_terms)
-        tf_idf_terms = {term: tf * idf_terms.get(term, 0) for term, tf in tf_terms.items()}
-
-        # Леммы
-        lemmas = filtered_lemmas_data[lemmas_name]
-        tf_lemmas = calculate_tf(lemmas, total_terms)
-        tf_idf_lemmas = {lemma: tf * idf_lemmas.get(lemma, 0) for lemma, tf in tf_lemmas.items()}
-
-        # Сохранение результатов
-        save_results(os.path.join(output_dir, f"terms_{doc_num}"),
-                     {term: (idf_terms.get(term, 0), tf_idf_terms.get(term, 0))
-                      for term in all_terms if term in tf_terms})
-
-        save_results(os.path.join(output_dir, f"lemmas_{doc_num}"),
-                     {lemma: (idf_lemmas.get(lemma, 0), tf_idf_lemmas.get(lemma, 0))
-                      for lemma in all_lemmas if lemma in tf_lemmas})
-
-
+    for file_number in file_numbers:
+        output_file = os.path.join(output_dir, f"lemmas_{file_number}.txt")
+        result = {}
+        for term in lemmas_idf[file_number].keys():
+            result[term] = (
+                lemmas_idf[file_number][term],
+                lemmas_tf[file_number][term] * lemmas_idf[file_number][term]
+            )
+        save_results(output_file, result)
+    
 if __name__ == "__main__":
-    main(DUMPS_DIR, TOKENS_DIR, LEMMAS_DIR, OUTPUT_DIR)
+    main(DUMPS_DIR, OUTPUT_DIR)

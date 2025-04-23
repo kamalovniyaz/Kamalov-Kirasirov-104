@@ -4,7 +4,7 @@ import re
 import signal
 import sys
 
-from search_engine.search.constants import LEMMAS_DIR
+LEMMAS_DIR = 'lemmas'
 
 
 def signal_handler(sig, frame):
