@@ -328,7 +328,6 @@ help: consider changing this to be a mutable reference in the `impl` method and 
 
 For more information about this error, try `rustc --explain E0596`.
 error: could not compile `limit-tracker` (lib test) due to 1 previous error
-warning: build failed, waiting for other jobs to finish...
 </code></pre>
 <p>Мы не можем изменять <code>MockMessenger</code> для отслеживания сообщений, потому что метод <code>send</code> принимает неизменяемую ссылку на <code>self</code>. Мы также не можем принять предложение из текста ошибки, чтобы использовать <code>&amp;mut self</code>, потому что тогда сигнатура <code>send</code> не будет соответствовать сигнатуре в определении типажа <code>Messenger</code> (не стесняйтесь попробовать и посмотреть, какое сообщение об ошибке получите вы).</p>
 <p>Это ситуация, в которой внутренняя изменяемость может помочь! Мы сохраним <code>sent_messages</code> внутри типа <code>RefCell&lt;T&gt;</code>, а затем в методе <code>send</code> сообщение сможет изменить список <code>sent_messages</code> для хранения сообщений, которые мы видели. Листинг 15-22 показывает, как это выглядит:</p>

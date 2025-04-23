@@ -4,7 +4,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from search_engine.search.constants import BASE_PAGE_URL, DUMPS_DIR
+BASE_PAGE_URL = 'https://doc.rust-lang.ru/book'
+DUMPS_DIR = 'dumps'
 
 # Список посещенных URL, чтобы избежать дублирования
 visited_urls = set()
