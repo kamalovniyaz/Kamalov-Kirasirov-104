@@ -38,7 +38,8 @@ def get_tokens(file_path) -> list[tuple[str, str]]:
     # Удаляем все теги <code> и их содержимое
     for code_tag in soup.find_all('code'):
         code_tag.extract()
-    text = soup.get_text(separator=' ', strip=True)
+    main = soup.find('main')
+    text = main.get_text(separator=' ', strip=True)
 
     # Оставляем только слова, удаляя все остальное (числа, знаки препинания и т.д.)
     words = re.findall(r'[а-яА-ЯёЁ]+', text)

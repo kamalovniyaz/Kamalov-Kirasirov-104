@@ -4,19 +4,33 @@ from pathlib import Path
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
+from natasha import (
+    Segmenter,  # 
+    MorphVocab,
+    NewsEmbedding,
+    NewsMorphTagger,
+    Doc
+)
+
+# Инициализация компонентов Natasha
+segmenter = Segmenter()  # Токенизатор
+morph_vocab = MorphVocab()
+emb = NewsEmbedding()
+morph_tagger = NewsMorphTagger(emb)
+
+
 OUTPUT_DIR = 'output'
 URLS_FILENAME = 'index.txt'
 
 def load_tfidf_data(output_dir) -> tuple[dict, set]:
-    """Загружает данные TF-IDF из папки output."""
+    """Загружает данные TF-IDF lemmas из папки output."""
     tfidf_data = {}
     vocabulary = set()
 
     for filename in os.listdir(Path(__file__).parent /output_dir):
-        if filename.endswith(".txt"):
+        if filename.endswith(".txt") and 'lemmas' in filename:
             page_num = int(filename.split("_")[1].split(".")[0])
             tfidf_vector = {}
-
             with open(os.path.join(Path(__file__).parent /output_dir, filename), "r", encoding="utf-8") as file:
                 for line in file:
                     term, _, tf_idf = line.strip().split()
@@ -24,8 +38,6 @@ def load_tfidf_data(output_dir) -> tuple[dict, set]:
                     vocabulary.add(term)
             tfidf_data[page_num] = tfidf_vector
 
-    print('Vocabulary size:', len(vocabulary))
-    print('TF-IDF data loaded:', len(tfidf_data), 'documents')
     return tfidf_data, vocabulary
 
 
@@ -36,14 +48,26 @@ def load_pages_url(urls_filename) -> dict[int, str]:
         for page_number, line in enumerate(file):
             _, url = line.strip().split()
             urls_dir[page_number] = url
-    print('URLs loaded:', urls_dir)
     return urls_dir
 
 
 def preprocess_query(query, vocabulary) -> dict[str, int]:
     """Токенизирует запрос и создает вектор TF-IDF для запроса."""
-    query_terms = query.lower().split()
+
+    doc = Doc(query.strip())
+    doc.segment(segmenter)
+    doc.tag_morph(morph_tagger)
+
+    # Лемматизация
+    query_terms = []
+    for token in doc.tokens:
+        token.lemmatize(morph_vocab)
+        query_terms.append(token.lemma.lower())
+
     query_vector = {term: 1 for term in query_terms if term in vocabulary}
+    print(vocabulary)
+    for term in query_terms:
+        print(term, term in vocabulary)
     print('Query vector size:', len(query_vector))
     return query_vector
 
@@ -69,7 +93,7 @@ def search(query, output_dir, urls_name):
     query_vector = preprocess_query(query, vocabulary)
     similarities = compute_cosine_similarity(query_vector, tfidf_data, vocabulary)
     print("Результаты поиска:")
-    return [[page_num, urls_name.get(page_num), similarity] for page_num, similarity in similarities if similarity > 0]
+    return [[page_num, urls_name.get(page_num), similarity] for page_num, similarity in similarities]
 
 
 def get_result_info(pages_info):

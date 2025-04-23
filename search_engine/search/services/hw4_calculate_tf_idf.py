@@ -53,8 +53,7 @@ def save_results(filename, data):
     with open(filename, 'w', encoding='utf-8') as file:
         for term in sorted(data):
             idf, tf_idf = data[term]
-            if tf_idf > 0:
-                file.write(f"{term} {idf} {tf_idf}\n")
+            file.write(f"{term} {idf} {tf_idf}\n")
 
 
 def main(dumps_dir, output_dir):
@@ -117,6 +116,7 @@ def main(dumps_dir, output_dir):
                 lemmas_tf[file_number][term] * lemmas_idf[file_number][term]
             )
         save_results(output_file, result)
-    
+
+
 if __name__ == "__main__":
     main(DUMPS_DIR, OUTPUT_DIR)
