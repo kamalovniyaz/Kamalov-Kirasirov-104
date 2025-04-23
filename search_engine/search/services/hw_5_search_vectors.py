@@ -83,7 +83,6 @@ def compute_cosine_similarity(query_vector, document_vectors, vocabulary):
         similarities.append((page_num, similarity))
 
     similarities.sort(key=lambda x: x[1], reverse=True)
-    print('Top 10 similarities:', similarities[:10])
     return similarities
 
 
@@ -93,7 +92,7 @@ def search(query, output_dir, urls_name):
     query_vector = preprocess_query(query, vocabulary)
     similarities = compute_cosine_similarity(query_vector, tfidf_data, vocabulary)
     print("Результаты поиска:")
-    return [[page_num, urls_name.get(page_num), similarity] for page_num, similarity in similarities]
+    return [[page_num, urls_name.get(page_num), similarity] for page_num, similarity in similarities if similarity > 0]
 
 
 def get_result_info(pages_info):
